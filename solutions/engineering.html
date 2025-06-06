@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Solutions | Fyndo - AI-Powered Development Tools</title>
+    <meta name="description" content="Accelerate engineering workflows with Fyndo's AI-powered code search, documentation discovery, and technical knowledge management for development teams.">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../assets/images/logo/favicon.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../SassTech/assets/css/bootstrap.min.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="../SassTech/assets/css/aos.css">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="../SassTech/assets/css/swiper-bundle.min.css">
+    <!-- Magnific -->
+    <link rel="stylesheet" href="../SassTech/assets/css/magnific-popup.css">
+    <!-- Satoshi -->
+    <link rel="stylesheet" href="../SassTech/assets/css/satoshi.css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="../assets/css/fyndo-main.css">
+</head>
+<body>
+<!--==================== Overlay Start ====================-->
+<div class="overlay"></div>
+<!--==================== Overlay End ====================-->
+
+<!--==================== Sidebar Overlay End ====================-->
+<div class="side-overlay"></div>
+<!--==================== Sidebar Overlay End ====================-->
+
+<!-- ==================== Mobile Menu Start Here ==================== -->
+<div class="mobile-menu d-lg-none d-block scroll-sm position-fixed bg-white tw-w-300-px tw-h-screen overflow-y-auto tw-p-6 tw-z-999 tw--translate-x-full tw-pb-68">
+    <button type="button" class="close-button position-absolute tw-end-0 top-0 tw-me-2 tw-mt-2 tw-w-605 tw-h-605 rounded-circle d-flex justify-content-center align-items-center text-neutral-900 bg-neutral-200 hover-bg-neutral-900 hover-text-white"> 
+        <i class="ph ph-x"></i>
+    </button>
+
+    <div class="mobile-menu__inner">
+        <a href="../index.html" class="mobile-menu__logo">
+            <img src="../assets/images/logo/fyndo-logo.png" alt="Fyndo">
+        </a>
+        <div class="mobile-menu__menu">
+            <!-- Mobile Nav menu Start -->
+            <ul class="nav-menu d-lg-flex align-items-center nav-menu--mobile d-block tw-mt-8">
+                <li class="nav-menu__item has-submenu position-relative">
+                    <a href="javascript:void(0)" class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Product</a>
+                    <ul class="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
+                        <li class="nav-submenu__item">
+                            <a href="../product/enterprise-search.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Enterprise Search</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="../product/knowledge-base.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Knowledge Base</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="../product/ai-workplace-assistant.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">AI Workplace Assistant</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="../product/integrations.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Integrations</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="../product/platform-features.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Platform Features</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-menu__item has-submenu position-relative activePage">
+                    <a href="javascript:void(0)" class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Solutions</a>
+                    <ul class="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
+                        <li class="nav-submenu__item">
+                            <a href="engineering.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Engineering Solutions</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="sales-enablement.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Sales Enablement</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="marketing-intelligence.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Marketing Intelligence</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="customer-support.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Customer Support</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="hr-talent.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">HR & Talent Management</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="executive-insights.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Executive Insights</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-menu__item has-submenu position-relative">
+                    <a href="javascript:void(0)" class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Resources</a>
+                    <ul class="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
+                        <li class="nav-submenu__item">
+                            <a href="../resources/prompt-library.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Prompt Library</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="../resources/about.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">About Fyndo</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="../resources/faq.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">FAQ</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="../resources/help-center.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Help Center</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="../resources/case-studies.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Customer Case Studies</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="nav-menu__item">
+                    <a href="../contact.html" class="nav-menu__link text-heading tw-py-9 fw-semibold">Contact</a>
+                </li>
+            </ul>
+            <!-- Nav menu End -->
+        </div>
+    </div>
+</div>
+<!-- ==================== Mobile Menu End Here ==================== -->
+
+<!-- ==================== Header Start Here ==================== -->
+<header class="header">
+    <nav class="nav container">
+        <div class="nav-brand">
+            <a href="../index.html" class="nav-logo">
+                <img src="../assets/images/logo/fyndo-logo.png" alt="Fyndo" class="nav-logo-img">
+            </a>
+        </div>
+        
+        <div class="nav-menu" id="nav-menu">
+            <ul class="nav-list">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Product</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../product/enterprise-search.html" class="dropdown-item">Enterprise Search</a></li>
+                        <li><a href="../product/knowledge-base.html" class="dropdown-item">Knowledge Base</a></li>
+                        <li><a href="../product/ai-workplace-assistant.html" class="dropdown-item">AI Workplace Assistant</a></li>
+                        <li><a href="../product/integrations.html" class="dropdown-item">Integrations</a></li>
+                        <li><a href="../product/platform-features.html" class="dropdown-item">Platform Features</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Solutions</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="engineering.html" class="dropdown-item active">Engineering</a></li>
+                        <li><a href="sales-enablement.html" class="dropdown-item">Sales Enablement</a></li>
+                        <li><a href="marketing-intelligence.html" class="dropdown-item">Marketing Intelligence</a></li>
+                        <li><a href="customer-support.html" class="dropdown-item">Customer Support</a></li>
+                        <li><a href="hr-talent.html" class="dropdown-item">HR & Talent</a></li>
+                        <li><a href="executive-insights.html" class="dropdown-item">Executive Insights</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../resources/prompt-library.html" class="dropdown-item">Prompt Library</a></li>
+                        <li><a href="../resources/about.html" class="dropdown-item">About Fyndo</a></li>
+                        <li><a href="../resources/faq.html" class="dropdown-item">FAQ</a></li>
+                        <li><a href="../resources/help-center.html" class="dropdown-item">Help Center</a></li>
+                        <li><a href="../resources/case-studies.html" class="dropdown-item">Case Studies</a></li>
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="../contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            
+            <div class="nav-actions">
+                <a href="../demo.html" class="btn btn-primary">Book Demo</a>
+            </div>
+        </div>
+        
+        <div class="nav-toggle" id="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+</header>
+<!-- ==================== Header End Here ==================== -->
+                            <a href="../resources/help-center.html" class="dropdown-link">Help Center</a>
+                            <a href="../resources/case-studies.html" class="dropdown-link">Customer Case Studies</a>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="nav-actions">
+                <a href="../demo.html" class="btn btn-outline">Request Demo</a>
+                <a href="../contact.html" class="btn btn-primary">Get Started</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-text">Engineering Solutions</span>
+                </div>
+                <h1 class="hero-title">
+                    Accelerate Development with 
+                    <span class="text-gradient">AI-Powered Code Intelligence</span>
+                </h1>
+                <p class="hero-description">
+                    Transform your engineering workflows with intelligent code search, automated documentation discovery, 
+                    and AI-powered development assistance. Find code faster, onboard developers quicker, and ship features with confidence.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">80%</div>
+                        <div class="stat-label">Faster Code Discovery</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">60%</div>
+                        <div class="stat-label">Reduced Onboarding Time</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">45%</div>
+                        <div class="stat-label">Fewer Code Reviews</div>
+                    </div>
+                </div>
+                <div class="hero-actions">
+                    <a href="../demo.html" class="btn btn-primary btn-large">
+                        Start Free Trial
+                        <i class="btn-icon">→</i>
+                    </a>
+                    <a href="#features" class="btn btn-outline btn-large">
+                        See Features
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-search-demo">
+                    <div class="demo-window">
+                        <div class="demo-header">
+                            <span class="demo-title">Fyndo Code Search</span>
+                            <div class="demo-controls">
+                                <span class="control"></span>
+                                <span class="control"></span>
+                                <span class="control"></span>
+                            </div>
+                        </div>
+                        <div class="demo-content">
+                            <div class="search-bar">
+                                <input type="text" placeholder="Search across all repositories..." value="authentication middleware">
+                                <button class="search-btn">🔍</button>
+                            </div>
+                            <div class="search-results">
+                                <div class="result-item">
+                                    <div class="result-file">src/middleware/auth.js</div>
+                                    <div class="result-snippet">function authenticateUser(req, res, next) {</div>
+                                </div>
+                                <div class="result-item">
+                                    <div class="result-file">docs/authentication.md</div>
+                                    <div class="result-snippet">Authentication middleware setup guide</div>
+                                </div>
+                                <div class="result-item">
+                                    <div class="result-file">tests/auth.test.js</div>
+                                    <div class="result-snippet">describe('Authentication middleware', () => {</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features Section -->
+    <section class="features-section" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Engineering-Focused Features</h2>
+                <p class="section-description">
+                    Purpose-built tools to enhance developer productivity and code quality
+                </p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="../assets/images/icons/code-search.svg" alt="Code Search">
+                    </div>
+                    <h3 class="feature-title">Intelligent Code Search</h3>
+                    <p class="feature-description">
+                        Search across all repositories, branches, and commits with semantic understanding. 
+                        Find code by function, variable names, or natural language descriptions.
+                    </p>
+                    <ul class="feature-list">
+                        <li>Multi-repository search</li>
+                        <li>Semantic code understanding</li>
+                        <li>Git history integration</li>
+                        <li>IDE plugin support</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="../assets/images/icons/documentation.svg" alt="Documentation">
+                    </div>
+                    <h3 class="feature-title">Living Documentation</h3>
+                    <p class="feature-description">
+                        Automatically discover and organize technical documentation, API specs, 
+                        and architectural decisions across your development ecosystem.
+                    </p>
+                    <ul class="feature-list">
+                        <li>Auto-generated API docs</li>
+                        <li>Architecture decision records</li>
+                        <li>Confluence & Notion sync</li>
+                        <li>Version control integration</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="../assets/images/icons/ai-assistant.svg" alt="AI Assistant">
+                    </div>
+                    <h3 class="feature-title">Code Review Assistant</h3>
+                    <p class="feature-description">
+                        AI-powered code review suggestions, security vulnerability detection, 
+                        and best practice recommendations integrated into your workflow.
+                    </p>
+                    <ul class="feature-list">
+                        <li>Automated code reviews</li>
+                        <li>Security scanning</li>
+                        <li>Performance optimization</li>
+                        <li>Style guide enforcement</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="../assets/images/icons/onboarding.svg" alt="Onboarding">
+                    </div>
+                    <h3 class="feature-title">Developer Onboarding</h3>
+                    <p class="feature-description">
+                        Accelerate new developer onboarding with personalized learning paths, 
+                        codebase tours, and contextual documentation delivery.
+                    </p>
+                    <ul class="feature-list">
+                        <li>Personalized code tours</li>
+                        <li>Interactive tutorials</li>
+                        <li>Team knowledge sharing</li>
+                        <li>Progress tracking</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="../assets/images/icons/integration.svg" alt="Integration">
+                    </div>
+                    <h3 class="feature-title">Dev Tool Integration</h3>
+                    <p class="feature-description">
+                        Seamlessly integrate with your existing development tools including 
+                        GitHub, GitLab, Jira, Slack, and popular IDEs.
+                    </p>
+                    <ul class="feature-list">
+                        <li>GitHub/GitLab integration</li>
+                        <li>Jira ticket linking</li>
+                        <li>Slack notifications</li>
+                        <li>VS Code extension</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="../assets/images/icons/analytics.svg" alt="Analytics">
+                    </div>
+                    <h3 class="feature-title">Development Analytics</h3>
+                    <p class="feature-description">
+                        Gain insights into code quality, team productivity, and technical debt 
+                        with comprehensive development metrics and reporting.
+                    </p>
+                    <ul class="feature-list">
+                        <li>Code quality metrics</li>
+                        <li>Team productivity insights</li>
+                        <li>Technical debt tracking</li>
+                        <li>Custom dashboards</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workflow Demo Section -->
+    <section class="workflow-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Engineering Workflow in Action</h2>
+                <p class="section-description">
+                    See how Fyndo transforms everyday development tasks
+                </p>
+            </div>
+            <div class="workflow-tabs">
+                <div class="tab-nav">
+                    <button class="tab-btn active" data-tab="bug-fixing">Bug Fixing</button>
+                    <button class="tab-btn" data-tab="feature-development">Feature Development</button>
+                    <button class="tab-btn" data-tab="code-review">Code Review</button>
+                    <button class="tab-btn" data-tab="onboarding">Developer Onboarding</button>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="bug-fixing">
+                        <div class="workflow-demo">
+                            <div class="demo-steps">
+                                <div class="step-item">
+                                    <div class="step-number">1</div>
+                                    <div class="step-content">
+                                        <h4>Bug Report Analysis</h4>
+                                        <p>AI analyzes bug reports and suggests relevant code files and functions to investigate</p>
+                                    </div>
+                                </div>
+                                <div class="step-item">
+                                    <div class="step-number">2</div>
+                                    <div class="step-content">
+                                        <h4>Code Search & Discovery</h4>
+                                        <p>Instantly find similar bugs, related code patterns, and previous fixes across the codebase</p>
+                                    </div>
+                                </div>
+                                <div class="step-item">
+                                    <div class="step-number">3</div>
+                                    <div class="step-content">
+                                        <h4>Solution Recommendations</h4>
+                                        <p>Get AI-powered suggestions for fixes based on historical data and best practices</p>
+                                    </div>
+                                </div>
+                                <div class="step-item">
+                                    <div class="step-number">4</div>
+                                    <div class="step-content">
+                                        <h4>Validation & Testing</h4>
+                                        <p>Automatically generate test cases and validate fixes against similar scenarios</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="demo-visual">
+                                <div class="code-editor">
+                                    <div class="editor-header">
+                                        <span>Bug Investigation Dashboard</span>
+                                    </div>
+                                    <div class="editor-content">
+                                        <div class="bug-analysis">
+                                            <div class="analysis-item">
+                                                <strong>Similar Issues Found:</strong> 3 related bugs in authentication module
+                                            </div>
+                                            <div class="analysis-item">
+                                                <strong>Suggested Files:</strong> auth.js, middleware.js, user.service.js
+                                            </div>
+                                            <div class="analysis-item">
+                                                <strong>Fix Confidence:</strong> 87% based on previous solutions
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="feature-development">
+                        <div class="workflow-demo">
+                            <div class="demo-steps">
+                                <div class="step-item">
+                                    <div class="step-number">1</div>
+                                    <div class="step-content">
+                                        <h4>Requirement Analysis</h4>
+                                        <p>Break down feature requirements and identify existing code patterns to leverage</p>
+                                    </div>
+                                </div>
+                                <div class="step-item">
+                                    <div class="step-number">2</div>
+                                    <div class="step-content">
+                                        <h4>Architecture Planning</h4>
+                                        <p>AI suggests optimal architecture patterns based on existing codebase structure</p>
+                                    </div>
+                                </div>
+                                <div class="step-item">
+                                    <div class="step-number">3</div>
+                                    <div class="step-content">
+                                        <h4>Code Generation</h4>
+                                        <p>Generate boilerplate code and suggest implementation approaches</p>
+                                    </div>
+                                </div>
+                                <div class="step-item">
+                                    <div class="step-number">4</div>
+                                    <div class="step-content">
+                                        <h4>Integration Testing</h4>
+                                        <p>Automatically test new features against existing functionality</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="demo-visual">
+                                <div class="code-editor">
+                                    <div class="editor-header">
+                                        <span>Feature Development Assistant</span>
+                                    </div>
+                                    <div class="editor-content">
+                                        <div class="feature-planning">
+                                            <div class="planning-item">
+                                                <strong>Architecture Pattern:</strong> Repository Pattern (used in 12 similar features)
+                                            </div>
+                                            <div class="planning-item">
+                                                <strong>Dependencies:</strong> Express.js, Mongoose, JWT (already configured)
+                                            </div>
+                                            <div class="planning-item">
+                                                <strong>Estimated Effort:</strong> 2-3 days based on similar implementations
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="code-review">
+                        <div class="workflow-demo">
+                            <div class="demo-steps">
+                                <div class="step-item">
+                                    <div class="step-number">1</div>
+                                    <div class="step-content">
+                                        <h4>Automated Analysis</h4>
+                                        <p>AI performs comprehensive code analysis for security, performance, and style issues</p>
+                                    </div>
+                                </div>
+                                <div class="step-item">
+                                    <div class="step-number">2</div>
+                                    <div class="step-content">
+                                        <h4>Context-Aware Suggestions</h4>
+                                        <p>Provide improvement suggestions based on team coding standards and best practices</p>
+                                    </div>
+                                </div>
+                                <div class="step-item">
+                                    <div class="step-number">3</div>
+                                    <div class="step-content">
+                                        <h4>Impact Assessment</h4>
+                                        <p>Analyze potential impact of changes on other parts of the codebase</p>
+                                    </div>
+                                </div>
+                                <div class="step-item">
+                                    <div class="step-number">4</div>
+                                    <div class="step-content">
+                                        <h4>Collaborative Review</h4>
+                                        <p>Facilitate team discussions with contextual information and historical data</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="demo-visual">
+                                <div class="code-editor">
+                                    <div class="editor-header">
+                                        <span>AI Code Review Assistant</span>
+                                    </div>
+                                    <div class="editor-content">
+                                        <div class="review-suggestions">
+                                            <div class="suggestion-item security">
+                                                <strong>Security:</strong> Consider input validation for user data
+                                            </div>
+                                            <div class="suggestion-item performance">
+                                                <strong>Performance:</strong> Database query can be optimized with indexing
+                                            </div>
+                                            <div class="suggestion-item style">
+                                                <strong>Style:</strong> Function naming doesn't follow team conventions
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="onboarding">
+                        <div class="workflow-demo">
+                            <div class="demo-steps">
+                                <div class="step-item">
+                                    <div class="step-number">1</div>
+                                    <div class="step-content">
+                                        <h4>Personalized Learning Path</h4>
+                                        <p>Create customized onboarding plan based on developer's experience and role</p>
+                                    </div>
+                                </div>
+                                <div class="step-item">
+                                    <div class="step-number">2</div>
+                                    <div class="step-content">
+                                        <h4>Codebase Exploration</h4>
+                                        <p>Guided tours through key architectural components and coding patterns</p>
+                                    </div>
+                                </div>
+                                <div class="step-item">
+                                    <div class="step-number">3</div>
+                                    <div class="step-content">
+                                        <h4>Interactive Learning</h4>
+                                        <p>Hands-on exercises and real-world scenarios to practice with actual code</p>
+                                    </div>
+                                </div>
+                                <div class="step-item">
+                                    <div class="step-number">4</div>
+                                    <div class="step-content">
+                                        <h4>Progress Tracking</h4>
+                                        <p>Monitor learning progress and adjust training based on individual needs</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="demo-visual">
+                                <div class="code-editor">
+                                    <div class="editor-header">
+                                        <span>Developer Onboarding Dashboard</span>
+                                    </div>
+                                    <div class="editor-content">
+                                        <div class="onboarding-progress">
+                                            <div class="progress-item completed">
+                                                <strong>Setup & Environment:</strong> ✓ Completed
+                                            </div>
+                                            <div class="progress-item current">
+                                                <strong>Architecture Overview:</strong> 📖 In Progress (60%)
+                                            </div>
+                                            <div class="progress-item pending">
+                                                <strong>First Feature Implementation:</strong> ⏳ Upcoming
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section class="use-cases-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Engineering Use Cases</h2>
+                <p class="section-description">
+                    Real-world applications across development teams
+                </p>
+            </div>
+            <div class="use-cases-grid">
+                <div class="use-case-card">
+                    <div class="use-case-header">
+                        <h3>Legacy Code Modernization</h3>
+                        <div class="use-case-metric">-50% Migration Time</div>
+                    </div>
+                    <p class="use-case-description">
+                        Understand legacy systems faster with AI-powered code analysis, dependency mapping, 
+                        and automated refactoring suggestions for modernization projects.
+                    </p>
+                    <div class="use-case-features">
+                        <span class="feature-tag">Code Analysis</span>
+                        <span class="feature-tag">Dependency Mapping</span>
+                        <span class="feature-tag">Refactoring Suggestions</span>
+                    </div>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-header">
+                        <h3>API Development & Documentation</h3>
+                        <div class="use-case-metric">+90% Doc Coverage</div>
+                    </div>
+                    <p class="use-case-description">
+                        Automatically generate and maintain API documentation, find existing endpoints, 
+                        and ensure consistency across microservices architecture.
+                    </p>
+                    <div class="use-case-features">
+                        <span class="feature-tag">Auto Documentation</span>
+                        <span class="feature-tag">API Discovery</span>
+                        <span class="feature-tag">Consistency Checks</span>
+                    </div>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-header">
+                        <h3>Security Compliance</h3>
+                        <div class="use-case-metric">-75% Security Issues</div>
+                    </div>
+                    <p class="use-case-description">
+                        Proactively identify security vulnerabilities, ensure compliance with industry standards, 
+                        and maintain secure coding practices across all repositories.
+                    </p>
+                    <div class="use-case-features">
+                        <span class="feature-tag">Vulnerability Scanning</span>
+                        <span class="feature-tag">Compliance Tracking</span>
+                        <span class="feature-tag">Secure Patterns</span>
+                    </div>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-header">
+                        <h3>Technical Debt Management</h3>
+                        <div class="use-case-metric">-40% Technical Debt</div>
+                    </div>
+                    <p class="use-case-description">
+                        Track and prioritize technical debt, identify code smells, and get actionable 
+                        recommendations for improving code quality and maintainability.
+                    </p>
+                    <div class="use-case-features">
+                        <span class="feature-tag">Debt Tracking</span>
+                        <span class="feature-tag">Quality Metrics</span>
+                        <span class="feature-tag">Refactoring Plans</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Integration Section -->
+    <section class="integration-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Engineering Tool Integrations</h2>
+                <p class="section-description">
+                    Connect with your existing development workflow
+                </p>
+            </div>
+            <div class="integration-categories">
+                <div class="category-grid">
+                    <div class="category-card">
+                        <h3 class="category-title">Version Control</h3>
+                        <div class="integration-items">
+                            <div class="integration-item">
+                                <img src="../assets/images/integrations/github.svg" alt="GitHub">
+                                <span>GitHub</span>
+                            </div>
+                            <div class="integration-item">
+                                <img src="../assets/images/integrations/gitlab.svg" alt="GitLab">
+                                <span>GitLab</span>
+                            </div>
+                            <div class="integration-item">
+                                <img src="../assets/images/integrations/bitbucket.svg" alt="Bitbucket">
+                                <span>Bitbucket</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <h3 class="category-title">Development Tools</h3>
+                        <div class="integration-items">
+                            <div class="integration-item">
+                                <img src="../assets/images/integrations/vscode.svg" alt="VS Code">
+                                <span>VS Code</span>
+                            </div>
+                            <div class="integration-item">
+                                <img src="../assets/images/integrations/intellij.svg" alt="IntelliJ">
+                                <span>IntelliJ IDEA</span>
+                            </div>
+                            <div class="integration-item">
+                                <img src="../assets/images/integrations/sublime.svg" alt="Sublime Text">
+                                <span>Sublime Text</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <h3 class="category-title">Project Management</h3>
+                        <div class="integration-items">
+                            <div class="integration-item">
+                                <img src="../assets/images/integrations/jira.svg" alt="Jira">
+                                <span>Jira</span>
+                            </div>
+                            <div class="integration-item">
+                                <img src="../assets/images/integrations/trello.svg" alt="Trello">
+                                <span>Trello</span>
+                            </div>
+                            <div class="integration-item">
+                                <img src="../assets/images/integrations/asana.svg" alt="Asana">
+                                <span>Asana</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <h3 class="category-title">Communication</h3>
+                        <div class="integration-items">
+                            <div class="integration-item">
+                                <img src="../assets/images/integrations/slack.svg" alt="Slack">
+                                <span>Slack</span>
+                            </div>
+                            <div class="integration-item">
+                                <img src="../assets/images/integrations/teams.svg" alt="Microsoft Teams">
+                                <span>Teams</span>
+                            </div>
+                            <div class="integration-item">
+                                <img src="../assets/images/integrations/discord.svg" alt="Discord">
+                                <span>Discord</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Transform Your Engineering Workflow?</h2>
+                <p class="cta-description">
+                    Join thousands of developers who've accelerated their productivity with Fyndo's AI-powered tools.
+                </p>
+                <div class="cta-actions">
+                    <a href="../demo.html" class="btn btn-primary btn-large">
+                        Start Free Trial
+                        <i class="btn-icon">→</i>
+                    </a>
+                    <a href="../contact.html" class="btn btn-outline btn-large">
+                        Talk to Engineering Expert
+                    </a>
+                </div>
+                <div class="cta-note">
+                    <p>14-day free trial • No credit card required • Setup in minutes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="../assets/images/logo/fyndo-logo.svg" alt="Fyndo" class="footer-logo-img">
+                        <span class="footer-logo-text">Fyndo</span>
+                    </div>
+                    <p class="footer-description">
+                        AI-powered enterprise search and workplace productivity platform.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">GitHub</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Product</h4>
+                    <ul class="footer-links">
+                        <li><a href="../product/enterprise-search.html">Enterprise Search</a></li>
+                        <li><a href="../product/knowledge-base.html">Knowledge Base</a></li>
+                        <li><a href="../product/ai-workplace-assistant.html">AI Workplace Assistant</a></li>
+                        <li><a href="../product/integrations.html">Integrations</a></li>
+                        <li><a href="../product/platform-features.html">Platform Features</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Solutions</h4>
+                    <ul class="footer-links">
+                        <li><a href="engineering.html">Engineering</a></li>
+                        <li><a href="sales-enablement.html">Sales Enablement</a></li>
+                        <li><a href="marketing-intelligence.html">Marketing Intelligence</a></li>
+                        <li><a href="customer-support.html">Customer Support</a></li>
+                        <li><a href="hr-talent.html">HR & Talent Management</a></li>
+                        <li><a href="executive-insights.html">Executive Insights</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="../resources/prompt-library.html">Prompt Library</a></li>
+                        <li><a href="../resources/about.html">About Fyndo</a></li>
+                        <li><a href="../resources/faq.html">FAQ</a></li>
+                        <li><a href="../resources/help-center.html">Help Center</a></li>
+                        <li><a href="../resources/case-studies.html">Customer Case Studies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="../contact.html">Contact</a></li>
+                        <li><a href="../privacy.html">Privacy Policy</a></li>
+                        <li><a href="../terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Fyndo. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/fyndo-main.js"></script>
+</body>
+</html>

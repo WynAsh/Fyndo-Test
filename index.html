@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en" class="home-one">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Fyndo - Enterprise AI Search and Workplace Productivity Tool">
+    <meta name="keywords" content="Enterprise AI Search, Workplace Productivity, Knowledge Management, AI Assistant">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Fyndo - Transform Your Enterprise Knowledge Into Actionable Intelligence</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="SassTech/assets/css/bootstrap.min.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="SassTech/assets/css/aos.css">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="SassTech/assets/css/swiper-bundle.min.css">
+    <!-- Magnific -->
+    <link rel="stylesheet" href="SassTech/assets/css/magnific-popup.css">
+    <!-- Satoshi -->
+    <link rel="stylesheet" href="SassTech/assets/css/satoshi.css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="assets/css/fyndo-main.css">
+</head>
+<body>
+
+<!--==================== Preloader Start ====================-->
+<!-- <div class="preloader">
+    <div class="preloader__inner">
+        <div class="preloader__logo">
+            <img src="assets/images/logo/fyndo-logo.png" alt="Fyndo">
+        </div>
+        <div class="preloader__spinner"></div>
+    </div>
+</div> -->
+<!--==================== Preloader End ====================-->
+
+<!--==================== Overlay Start ====================-->
+<div class="overlay"></div>
+<!--==================== Overlay End ====================-->
+
+<!--==================== Sidebar Overlay End ====================-->
+<div class="side-overlay"></div>
+<!--==================== Sidebar Overlay End ====================-->
+
+<!-- ==================== Scroll to Top End Here ==================== -->
+<!-- <div class="progress-wrap">
+  <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+  </svg>
+</div> -->
+<!-- ==================== Scroll to Top End Here ==================== -->
+
+<!-- ==================== Mobile Menu Start Here ==================== -->
+<div class="mobile-menu d-lg-none d-block scroll-sm position-fixed bg-white tw-w-300-px tw-h-screen overflow-y-auto tw-p-6 tw-z-999 tw--translate-x-full tw-pb-68">
+    <button type="button" class="close-button position-absolute tw-end-0 top-0 tw-me-2 tw-mt-2 tw-w-605 tw-h-605 rounded-circle d-flex justify-content-center align-items-center text-neutral-900 bg-neutral-200 hover-bg-neutral-900 hover-text-white"> 
+        <i class="ph ph-x"></i>
+            </button>
+
+    <div class="mobile-menu__inner">
+        <a href="index.html" class="mobile-menu__logo">
+            <img src="assets/images/logo/fyndo-logo.png" alt="Fyndo">
+        </a>
+        <div class="mobile-menu__menu">
+            <!-- Mobile Nav menu Start -->
+            <ul class="nav-menu d-lg-flex align-items-center nav-menu--mobile d-block tw-mt-8">
+                <li class="nav-menu__item has-submenu position-relative activePage">
+                    <a href="javascript:void(0)" class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Product</a>
+                    <ul class="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
+                        <li class="nav-submenu__item">
+                            <a href="product/enterprise-search.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Enterprise Search</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="product/knowledge-base.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Knowledge Base</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="product/ai-workplace-assistant.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">AI Workplace Assistant</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="product/integrations.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Integrations</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="product/platform-features.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Platform Features</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-menu__item has-submenu position-relative">
+                    <a href="javascript:void(0)" class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Solutions</a>
+                    <ul class="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
+                        <li class="nav-submenu__item">
+                            <a href="solutions/engineering.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Engineering Solutions</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="solutions/sales-enablement.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Sales Enablement</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="solutions/marketing-intelligence.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Marketing Intelligence</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="solutions/customer-support.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Customer Support</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="solutions/hr-talent.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">HR & Talent Management</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="solutions/executive-insights.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Executive Insights</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-menu__item has-submenu position-relative">
+                    <a href="javascript:void(0)" class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Resources</a>
+                    <ul class="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
+                        <li class="nav-submenu__item">
+                            <a href="resources/prompt-library.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Prompt Library</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="resources/about.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">About Fyndo</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="resources/faq.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">FAQ</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="resources/help-center.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Help Center</a>
+                        </li>
+                        <li class="nav-submenu__item">
+                            <a href="resources/case-studies.html" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">Customer Case Studies</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="nav-menu__item">
+                    <a href="contact.html" class="nav-menu__link text-heading tw-py-9 fw-semibold">Contact</a>
+                </li>
+            </ul>
+            <!-- Nav menu End -->
+        </div>
+    </div>
+</div>
+<!-- ==================== Mobile Menu End Here ==================== -->
+
+<!-- ==================== Header Start Here ==================== -->
+<header class="header">
+    <nav class="nav container">
+        <div class="nav-brand">
+            <a href="index.html" class="nav-logo">
+                <img src="assets/images/logo/fyndo-logo.png" alt="Fyndo" class="nav-logo-img">
+            </a>
+        </div>
+        
+        <div class="nav-menu" id="nav-menu">
+            <ul class="nav-list">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Product</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="product/enterprise-search.html" class="dropdown-item">Enterprise Search</a></li>
+                        <li><a href="product/knowledge-base.html" class="dropdown-item">Knowledge Base</a></li>
+                        <li><a href="product/ai-workplace-assistant.html" class="dropdown-item">AI Workplace Assistant</a></li>
+                        <li><a href="product/integrations.html" class="dropdown-item">Integrations</a></li>
+                        <li><a href="product/platform-features.html" class="dropdown-item">Platform Features</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Solutions</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="solutions/engineering.html" class="dropdown-item">Engineering</a></li>
+                        <li><a href="solutions/sales-enablement.html" class="dropdown-item">Sales Enablement</a></li>
+                        <li><a href="solutions/marketing-intelligence.html" class="dropdown-item">Marketing Intelligence</a></li>
+                        <li><a href="solutions/customer-support.html" class="dropdown-item">Customer Support</a></li>
+                        <li><a href="solutions/hr-talent.html" class="dropdown-item">HR & Talent</a></li>
+                        <li><a href="solutions/executive-insights.html" class="dropdown-item">Executive Insights</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="resources/prompt-library.html" class="dropdown-item">Prompt Library</a></li>
+                        <li><a href="resources/about.html" class="dropdown-item">About Fyndo</a></li>
+                        <li><a href="resources/faq.html" class="dropdown-item">FAQ</a></li>
+                        <li><a href="resources/help-center.html" class="dropdown-item">Help Center</a></li>
+                        <li><a href="resources/case-studies.html" class="dropdown-item">Case Studies</a></li>
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            
+            <div class="nav-actions">
+                <a href="demo.html" class="btn btn-primary">Sign In</a>
+            </div>
+            <div class="nav-actions">
+                <a href="demo.html" class="btn btn-primary">Book Demo</a>
+            </div>
+        </div>
+        
+        <div class="nav-toggle" id="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>        </div>
+    </nav>
+</header>
+<!-- ==================== Header End Here ==================== -->
+
+<!-- ==================== Hero Section Start Here ==================== -->
+<section class="hero-section bg-gradient-primary tw-pt-32 tw-pb-20 position-relative overflow-hidden">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="hero-title text-white fw-bold tw-text-5xl tw-leading-tight mb-4">
+                        Transform Your Enterprise Knowledge Into <span class="text-accent">Actionable Intelligence</span>
+                    </h1>
+                    <p class="hero-description text-white-80 tw-text-xl tw-leading-relaxed mb-5">
+                        Discover security-first enterprise AI search with tailored workplace assistants and intelligent workflows. Fyndo unifies company knowledge from across platforms to automate information discovery and accelerate decision-making.
+                    </p>
+                    <div class="hero-actions d-flex flex-wrap tw-gap-4 mb-5">
+                        <a href="demo.html" class="btn btn-accent btn-lg tw-px-8">Book a Demo</a>
+                        <a href="#features" class="btn btn-outline-white btn-lg tw-px-8">Learn More</a>
+                    </div>
+                    <div class="hero-stats d-flex flex-wrap tw-gap-8 text-white-80">
+                        <div class="stat-item">
+                            <div class="stat-number fw-bold tw-text-2xl text-white">500+</div>
+                            <div class="stat-label tw-text-sm">Enterprise Customers</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number fw-bold tw-text-2xl text-white">100+</div>
+                            <div class="stat-label tw-text-sm">App Integrations</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number fw-bold tw-text-2xl text-white">99.9%</div>
+                            <div class="stat-label tw-text-sm">Uptime SLA</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="hero-image" data-aos="fade-left" data-aos-duration="1200">
+                    <img src="https://cdn.prod.website-files.com/5f874a02b14267b40a9fd71b/626974cf5e95dd3bcfd7b7b3_hero-what-is-enterprise-search-top-4-benefits.jpg" alt="Fyndo AI Search Platform" class="img-fluid">
+
+                    <!-- <img src="assets/images/hero/fyndo-hero-dashboard.jpeg" alt="Fyndo AI Search Platform" class="img-fluid"> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Background Elements -->
+    <div class="hero-bg-elements">
+        <div class="bg-element bg-element--1"></div>
+        <div class="bg-element bg-element--2"></div>
+        <div class="bg-element bg-element--3"></div>
+    </div>
+</section>
+<!-- ==================== Hero Section End Here ==================== -->
+
+<!-- ==================== Features Overview Section Start Here ==================== -->
+<section id="features" class="features-overview-section tw-py-20 bg-neutral-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-header text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title fw-bold tw-text-4xl text-heading mb-4">
+                        Bring Your Data Together to Find, Build, and Analyze Anything
+                    </h2>
+                    <p class="section-description tw-text-xl text-neutral-600 tw-max-w-3xl mx-auto">
+                        Fyndo's AI-driven enterprise search helps teams unlock knowledge with indexed and non-indexed data access options across your entire organizational ecosystem.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row tw-gap-8 justify-content-center">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-card bg-white tw-p-8 tw-rounded-2xl shadow-sm h-100 hover-shadow-lg tw-transition-all">
+                    <div class="feature-icon tw-w-16 tw-h-16 bg-primary-light rounded-circle d-flex align-items-center justify-content-center mb-4">
+                        <i class="ph ph-magnifying-glass tw-text-2xl text-primary"></i>
+                    </div>
+                    <h3 class="feature-title fw-bold tw-text-xl text-heading mb-3">Search Across 100+ Apps with Natural Language</h3>
+                    <p class="feature-description text-neutral-600 tw-leading-relaxed">
+                        Connect seamlessly with your existing tools and platforms. Search through Slack, Google Drive, Notion, Jira, and 100+ other applications using simple, natural language queries.
+                    </p>
+                    <a href="product/integrations.html" class="feature-link text-primary fw-semibold mt-3 d-inline-flex align-items-center">
+                        Explore Integrations <i class="ph ph-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-card bg-white tw-p-8 tw-rounded-2xl shadow-sm h-100 hover-shadow-lg tw-transition-all">
+                    <div class="feature-icon tw-w-16 tw-h-16 bg-accent-light rounded-circle d-flex align-items-center justify-content-center mb-4">
+                        <i class="ph ph-clock tw-text-2xl text-accent"></i>
+                    </div>
+                    <h3 class="feature-title fw-bold tw-text-xl text-heading mb-3">Real-time Retrieval from Private Files, Chats & Emails</h3>
+                    <p class="feature-description text-neutral-600 tw-leading-relaxed">
+                        Access the most current information instantly. Our real-time retrieval ensures you're always working with the latest data from across your organization's private repositories.
+                    </p>
+                    <a href="product/enterprise-search.html" class="feature-link text-primary fw-semibold mt-3 d-inline-flex align-items-center">
+                        Learn About Search <i class="ph ph-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="feature-card bg-white tw-p-8 tw-rounded-2xl shadow-sm h-100 hover-shadow-lg tw-transition-all">
+                    <div class="feature-icon tw-w-16 tw-h-16 bg-success-light rounded-circle d-flex align-items-center justify-content-center mb-4">
+                        <i class="ph ph-robot tw-text-2xl text-success"></i>
+                    </div>
+                    <h3 class="feature-title fw-bold tw-text-xl text-heading mb-3">FyndoAI—Intelligent AI for Answers & Actions</h3>
+                    <p class="feature-description text-neutral-600 tw-leading-relaxed">
+                        Go beyond search with our intelligent AI workplace assistant that not only finds information but takes action, generates insights, and automates workflows based on your organizational context.
+                    </p>
+                    <a href="product/ai-workplace-assistant.html" class="feature-link text-primary fw-semibold mt-3 d-inline-flex align-items-center">
+                        Discover FyndoAI <i class="ph ph-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==================== Features Overview Section End Here ==================== -->
+
+<!-- ==================== Workflow Section Start Here ==================== -->
+<section class="workflow-section tw-py-20 bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-header text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title fw-bold tw-text-4xl text-heading mb-4">
+                        Evolving Teams, Smarter AI Workflows
+                    </h2>
+                    <p class="section-description tw-text-xl text-neutral-600 tw-max-w-3xl mx-auto mb-5">
+                        Transform how your organization processes information and makes decisions with intelligent workflows that adapt to your team's unique needs.
+                    </p>
+                    <a href="demo.html" class="btn btn-primary btn-lg tw-px-8">Get Started</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="workflow-cards tw-mt-16">
+            <div class="row tw-gap-8">
+                <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="workflow-card text-center">
+                        <div class="workflow-image mb-4">
+                            <img src="assets/images/workflow/aggregate-insights.png" alt="Aggregate Insights" class="img-fluid tw-rounded-xl">
+                        </div>
+                        <h3 class="workflow-title fw-bold tw-text-xl text-heading mb-3">Find Answers Faster by Aggregating Insights from Multiple Sources</h3>
+                        <p class="workflow-description text-neutral-600 tw-leading-relaxed">
+                            Easily search shared workspace and private data simultaneously. Our intelligent aggregation brings together relevant information from across your entire tech stack.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="workflow-card text-center">
+                        <div class="workflow-image mb-4">
+                            <img src="assets/images/workflow/meaningful-insights.jpg" alt="Meaningful Insights" class="img-fluid tw-rounded-xl">
+                        </div>
+                        <h3 class="workflow-title fw-bold tw-text-xl text-heading mb-3">Transform Raw Information into Meaningful Insights</h3>
+                        <p class="workflow-description text-neutral-600 tw-leading-relaxed">
+                            FyndoAI uses advanced AI to transform raw information into meaningful insights, helping teams make informed decisions and drive organizational growth.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="workflow-card text-center">
+                        <div class="workflow-image mb-4">
+                            <img src="assets/images/workflow/advanced-reasoning.jpg" alt="Advanced Reasoning" class="img-fluid tw-rounded-xl">
+                        </div>
+                        <h3 class="workflow-title fw-bold tw-text-xl text-heading mb-3">Tackle Complex Problems with Advanced Reasoning LLMs</h3>
+                        <p class="workflow-description text-neutral-600 tw-leading-relaxed">
+                            Conduct research and explore intricate ideas with GPT-4, Claude, Gemini, and other cutting-edge language models integrated into your workflow.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==================== Workflow Section End Here ==================== -->
+
+<!-- ==================== Integrations Section Start Here ==================== -->
+<section class="integrations-section tw-py-20 bg-neutral-50">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6" data-aos="fade-right">
+                <div class="integrations-content">
+                    <h2 class="section-title fw-bold tw-text-4xl text-heading mb-4">
+                        Integrate 100+ Apps and Data Connectors
+                    </h2>
+                    <p class="section-description tw-text-xl text-neutral-600 tw-leading-relaxed mb-5">
+                        AI insights pull from all your data sources at once for intelligent enterprise search results. Connect your entire tech stack seamlessly.
+                    </p>
+                    <a href="product/integrations.html" class="btn btn-primary btn-lg tw-px-8">Browse Integrations</a>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+                <div class="integrations-grid">
+                    <img src="assets/images/integrations/apps-grid.png" alt="100+ App Integrations" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==================== Integrations Section End Here ==================== -->
+
+<!-- ==================== AI Agents Section Start Here ==================== -->
+<section class="ai-agents-section tw-py-20 bg-white">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6" data-aos="fade-right">
+                <div class="ai-agents-image">
+                    <img src="assets/images/ai-agents/agents-interface.png" alt="Fyndo AI Agents" class="img-fluid tw-rounded-xl">
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+                <div class="ai-agents-content">
+                    <h2 class="section-title fw-bold tw-text-4xl text-heading mb-4">
+                        Build Specialized AI Agents to Tackle Specific Problems and Execute Tasks
+                    </h2>
+                    <p class="section-description tw-text-xl text-neutral-600 tw-leading-relaxed mb-5">
+                        Create custom AI agents tailored to your organization's unique workflows. From automating routine tasks to solving complex business challenges, our agents adapt to your specific needs.
+                    </p>
+                    <div class="agents-features mb-5">
+                        <div class="feature-item d-flex align-items-start mb-3">
+                            <div class="feature-icon tw-w-6 tw-h-6 bg-primary rounded-circle d-flex align-items-center justify-content-center me-3 tw-mt-1">
+                                <i class="ph ph-check text-white tw-text-sm"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4 class="feature-title fw-semibold text-heading mb-1">Custom Workflow Automation</h4>
+                                <p class="feature-description text-neutral-600 tw-text-sm">Automate repetitive tasks and complex workflows specific to your industry and role.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item d-flex align-items-start mb-3">
+                            <div class="feature-icon tw-w-6 tw-h-6 bg-primary rounded-circle d-flex align-items-center justify-content-center me-3 tw-mt-1">
+                                <i class="ph ph-check text-white tw-text-sm"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4 class="feature-title fw-semibold text-heading mb-1">Contextual Understanding</h4>
+                                <p class="feature-description text-neutral-600 tw-text-sm">Agents understand your organizational context and data relationships.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item d-flex align-items-start">
+                            <div class="feature-icon tw-w-6 tw-h-6 bg-primary rounded-circle d-flex align-items-center justify-content-center me-3 tw-mt-1">
+                                <i class="ph ph-check text-white tw-text-sm"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4 class="feature-title fw-semibold text-heading mb-1">Multi-Modal Capabilities</h4>
+                                <p class="feature-description text-neutral-600 tw-text-sm">Process text, images, documents, and structured data seamlessly.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="product/ai-agents.html" class="btn btn-primary btn-lg tw-px-8">Learn More About Agents</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==================== AI Agents Section End Here ==================== -->
+
+<!-- ==================== Security Section Start Here ==================== -->
+<section class="security-section tw-py-20 bg-gradient-dark text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-header text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title fw-bold tw-text-4xl mb-4">
+                        Security You Trust. Integration You Control.
+                    </h2>
+                    <p class="section-description tw-text-xl text-white-80 tw-max-w-3xl mx-auto">
+                        Enterprise-grade security meets flexible deployment options. Your data stays secure while remaining accessible to authorized users.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="security-comparison tw-mt-16">
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="comparison-card bg-white-10 tw-p-8 tw-rounded-2xl">
+                        <h3 class="comparison-title fw-bold tw-text-2xl text-white mb-4">Most Enterprise Search Tools</h3>
+                        <ul class="comparison-list">
+                            <li class="comparison-item d-flex align-items-start mb-3">
+                                <i class="ph ph-x-circle text-danger me-3 tw-mt-1"></i>
+                                <span class="text-white-80">Security risk due to duplication of all your data</span>
+                            </li>
+                            <li class="comparison-item d-flex align-items-start mb-3">
+                                <i class="ph ph-x-circle text-danger me-3 tw-mt-1"></i>
+                                <span class="text-white-80">Slow indexing of data means out-of-date answers</span>
+                            </li>
+                            <li class="comparison-item d-flex align-items-start mb-3">
+                                <i class="ph ph-x-circle text-danger me-3 tw-mt-1"></i>
+                                <span class="text-white-80">Rigid integration options</span>
+                            </li>
+                            <li class="comparison-item d-flex align-items-start mb-3">
+                                <i class="ph ph-x-circle text-danger me-3 tw-mt-1"></i>
+                                <span class="text-white-80">Limited app connectors</span>
+                            </li>
+                            <li class="comparison-item d-flex align-items-start">
+                                <i class="ph ph-x-circle text-danger me-3 tw-mt-1"></i>
+                                <span class="text-white-80">Inflated and underused features means high price tags</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="comparison-card bg-primary-light tw-p-8 tw-rounded-2xl">
+                        <h3 class="comparison-title fw-bold tw-text-2xl text-white mb-4">Fyndo Platform</h3>
+                        <ul class="comparison-list">
+                            <li class="comparison-item d-flex align-items-start mb-3">
+                                <i class="ph ph-check-circle text-success me-3 tw-mt-1"></i>
+                                <span class="text-white">Non-indexed real-time data retrieval option—data is not duplicated</span>
+                            </li>
+                            <li class="comparison-item d-flex align-items-start mb-3">
+                                <i class="ph ph-check-circle text-success me-3 tw-mt-1"></i>
+                                <span class="text-white">Indexing controls for workspace connectors</span>
+                            </li>
+                            <li class="comparison-item d-flex align-items-start mb-3">
+                                <i class="ph ph-check-circle text-success me-3 tw-mt-1"></i>
+                                <span class="text-white">Bring your own cloud (BYOC) and LLM API Key</span>
+                            </li>
+                            <li class="comparison-item d-flex align-items-start mb-3">
+                                <i class="ph ph-check-circle text-success me-3 tw-mt-1"></i>
+                                <span class="text-white">Zero data retention</span>
+                            </li>
+                            <li class="comparison-item d-flex align-items-start mb-3">
+                                <i class="ph ph-check-circle text-success me-3 tw-mt-1"></i>
+                                <span class="text-white">AI access governance</span>
+                            </li>
+                            <li class="comparison-item d-flex align-items-start">
+                                <i class="ph ph-check-circle text-success me-3 tw-mt-1"></i>
+                                <span class="text-white">Affordable and scalable for teams</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center tw-mt-8">
+                <a href="contact.html" class="btn btn-accent btn-lg tw-px-8">Make the Switch</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==================== Security Section End Here ==================== -->
+
+<!-- ==================== Solutions by Role Section Start Here ==================== -->
+<section class="solutions-by-role-section tw-py-20 bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-header text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title fw-bold tw-text-4xl text-heading mb-4">
+                        Intelligent Enterprise Search for Every Role
+                    </h2>
+                    <p class="section-description tw-text-xl text-neutral-600 tw-max-w-3xl mx-auto">
+                        Tailored AI search and workplace assistance designed for the unique challenges and workflows of different organizational departments.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="solutions-tabs tw-mt-12" data-aos="fade-up">
+            <div class="tab-navigation mb-5">
+                <ul class="nav nav-pills justify-content-center" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#engineering-tab" type="button" role="tab">Engineering</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#sales-tab" type="button" role="tab">Sales</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#marketing-tab" type="button" role="tab">Marketing</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#support-tab" type="button" role="tab">Support</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#hr-tab" type="button" role="tab">HR</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#executive-tab" type="button" role="tab">Executive</button>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="engineering-tab" role="tabpanel">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="solution-content">
+                                <h3 class="solution-title fw-bold tw-text-3xl text-heading mb-4">Engineers Resolve Technical Blockers with Less Disruption</h3>
+                                <p class="solution-description tw-text-lg text-neutral-600 tw-leading-relaxed mb-5">
+                                    Accelerate debugging, onboarding, and collaboration with intelligent enterprise search—faster insights, fewer silos, better efficiency, better code.
+                                </p>
+                                <ul class="solution-features mb-5">
+                                    <li class="feature-item d-flex align-items-start mb-3">
+                                        <i class="ph ph-check-circle text-primary me-3 tw-mt-1"></i>
+                                        <span>Instantly search through code repositories, documentation, and Slack conversations</span>
+                                    </li>
+                                    <li class="feature-item d-flex align-items-start mb-3">
+                                        <i class="ph ph-check-circle text-primary me-3 tw-mt-1"></i>
+                                        <span>Get contextual answers about APIs, frameworks, and deployment processes</span>
+                                    </li>
+                                    <li class="feature-item d-flex align-items-start">
+                                        <i class="ph ph-check-circle text-primary me-3 tw-mt-1"></i>
+                                        <span>Accelerate onboarding with comprehensive knowledge base access</span>
+                                    </li>
+                                </ul>
+                                <a href="solutions/engineering.html" class="btn btn-primary btn-lg tw-px-8">Explore Engineering Solutions</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="solution-image">
+                                <img src="assets/images/solutions/engineering-solution.png" alt="Engineering Solutions" class="img-fluid tw-rounded-xl">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="sales-tab" role="tabpanel">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="solution-content">
+                                <h3 class="solution-title fw-bold tw-text-3xl text-heading mb-4">Sales Teams Close Deals Faster with Intelligent Insights</h3>
+                                <p class="solution-description tw-text-lg text-neutral-600 tw-leading-relaxed mb-5">
+                                    Empower your sales team with AI-driven insights and seamless access to customer data, enabling them to engage effectively and close deals faster.
+                                </p>
+                                <ul class="solution-features mb-5">
+                                    <li class="feature-item d-flex align-items-start mb-3">
+                                        <i class="ph ph-check-circle text-primary me-3 tw-mt-1"></i>
+                                        <span>Instant access to customer interactions, preferences, and history</span>
+                                    </li>
+                                    <li class="feature-item d-flex align-items-start mb-3">
+                                        <i class="ph ph-check-circle text-primary me-3 tw-mt-1"></i>
+                                        <span>AI-generated insights and recommendations for upselling and cross-selling</span>
+                                    </li>
+                                    <li class="feature-item d-flex align-items-start">
+                                        <i class="ph ph-check-circle text-primary me-3 tw-mt-1"></i>
+                                        <span>Seamless integration with CRM and communication tools</span>
+                                    </li>
+                                </ul>
+                                <a href="solutions/sales-enablement.html" class="btn btn-primary btn-lg tw-px-8">Explore Sales Solutions</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="solution-image">
+                                <img src="assets/images/solutions/sales-solution.png" alt="Sales Solutions" class="img-fluid tw-rounded-xl">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="marketing-tab" role="tabpanel">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="solution-content">
+                                <h3 class="solution-title fw-bold tw-text-3xl text-heading mb-4">Marketing Teams Drive Engagement with Targeted Campaigns</h3>
+                                <p class="solution-description tw-text-lg text-neutral-600 tw-leading-relaxed mb-5">
+                                    Leverage AI to analyze market trends, customer behavior, and campaign performance, enabling your marketing team to create impactful, data-driven strategies.
+                                </p>
+                                <ul class="solution-features mb-5">
+                                    <li class="feature-item d-flex align-items-start mb-3">
+                                        <i class="ph ph-check-circle text-primary me-3 tw-mt-1"></i>
+                                        <span>AI-powered analysis of customer segments and behavior patterns</span>
+                                    </li>
+                                    <li class="feature-item d-flex align-items-start mb-3">
+                                        <i class="ph ph-check-circle text-primary me-3 tw-mt-1"></i>
+                                        <span>Real-time performance tracking of marketing campaigns</span>
+                                    </li>
+                                    <li class="feature-item d-flex align-items-start">
+                                        <i class="ph ph-check-circle text-primary me-3 tw-mt-1"></i>
+                                        <span>Seamless integration with marketing automation and analytics tools</span>
+                                    </li>
+                                </ul>
+                                <a href="solutions/marketing-intelligence.html" class="btn btn-primary btn-lg tw-px-8">Explore Marketing Solutions</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="solution-image">
+                                <img src="assets/images/solutions/marketing-solution.png" alt="Marketing Solutions" class="img-fluid tw-rounded-xl">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="support-tab" role="tabpanel">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="solution-content">
+                                <h3 class="solution-title fw-bold tw-text-3xl text-heading mb-4">Support Teams Enhance Customer Satisfaction with AI</h3>
+                                <p class="solution-description tw-text-lg text-neutral-600 tw-leading-relaxed mb-5">
+                                    Transform your customer support with AI-driven insights, enabling your team to resolve issues faster and improve overall customer satisfaction.
+                                </p>
+                                <ul class="solution-features mb-5">
+                                    <li class="feature-item d-flex align-items-start mb-3">
+                                        <i class="ph ph-check-circle text-primary me-3 tw-mt-1"></i>
+                                        <span>Instant access to customer queries, issues, and interaction history</span>
+                                    </li>
+                                    <li class="feature-item d-flex align-items-start mb-3">
+                                        <i class="ph ph-check-circle text-primary me-3 tw-mt-1"></i>
+                                        <span>AI-generated suggestions for quick issue resolution</span>
+                                    </li>
+                                    <li class="feature-item d-flex align-items-start">
+                                        <i class="ph ph-check-circle text-primary me-3 tw-mt-1"></i>
+                                        <span>Seamless integration with helpdesk and ticketing systems</span>
+                                    </li>
+                                </ul>
+                                <a href="solutions/customer-support.html" class="btn btn-primary btn-lg tw-px-8">Explore Support Solutions</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="solution-image">
+                                <img src="assets/images/solutions/support-solution.png" alt="Support Solutions" class="img-fluid tw-rounded-xl">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="hr-tab" role="tabpanel">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="solution-content">
+                                <h3 class="solution-title fw-bold tw-text-3xl text-heading mb-4">HR Teams Optimize Talent Management with AI Insights</h3>
+                                <p class="solution-description tw-text-lg text-neutral-600 tw-leading-relaxed mb-5">
+                                    Enhance your HR processes with AI-driven insights into employee performance, engagement, and development, enabling better talent management and retention.
+                                </p>
+                                <ul class="solution-features mb-5">
+                                    <li class="feature-item d-flex align-items-start mb-3">
+                                        <i class="ph ph-check-circle text-primary me-3 tw-mt-1"></i>
+                                        <span>AI-powered analysis of employee performance and engagement data</span>
+                                    </li>
+                                    <li class="feature-item d-flex align-items-start mb-3">
+                                        <i class="ph ph-check-circle text-primary me-3 tw-mt-1"></i>
+                                        <span>Real-time insights into workforce trends and issues</span>
+                                    </li>
+                                    <li class="feature-item d-flex align-items-start">
+                                        <i class="ph ph-check-circle text-primary me-3 tw-mt-1"></i>
+                                        <span>Seamless integration with HR management and analytics tools</span>
+                                    </li>
+                                </ul>
+                                <a href="solutions/hr-talent.html" class="btn btn-primary btn-lg tw-px-8">Explore HR Solutions</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="solution-image">
+                                <img src="assets/images/solutions/hr-solution.png" alt="HR Solutions" class="img-fluid tw-rounded-xl">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="executive-tab" role="tabpanel">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="solution-content">
+                                <h3 class="solution-title fw-bold tw-text-3xl text-heading mb-4">Executives Gain Strategic Insights with AI-Powered Analytics</h3>
+                                <p class="solution-description tw-text-lg text-neutral-600 tw-leading-relaxed mb-5">
+                                    Leverage AI to gain deep insights into business performance, market trends, and operational efficiency, empowering executives to make informed strategic decisions.
+                                </p>
+                                <ul class="solution-features mb-5">
+                                    <li class="feature-item d-flex align-items-start mb-3">
+                                        <i class="ph ph-check-circle text-primary me-3 tw-mt-1"></i>
+                                        <span>AI-driven analysis of business metrics and KPIs</span>
+                                    </li>
+                                    <li class="feature-item d-flex align-items-start mb-3">
+                                        <i class="ph ph-check-circle text-primary me-3 tw-mt-1"></i>
+                                        <span>Real-time visibility into operational performance and issues</span>
+                                    </li>
+                                    <li class="feature-item d-flex align-items-start">
+                                        <i class="ph ph-check-circle text-primary me-3 tw-mt-1"></i>
+                                        <span>Seamless integration with business intelligence and reporting tools</span>
+                                    </li>
+                                </ul>
+                                <a href="solutions/executive-insights.html" class="btn btn-primary btn-lg tw-px-8">Explore Executive Solutions</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="solution-image">
+                                <img src="assets/images/solutions/executive-solution.png" alt="Executive Solutions" class="img-fluid tw-rounded-xl">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==================== Solutions by Role Section End Here ==================== -->
+
+<!-- ==================== Trusted By Section Start Here ==================== -->
+<section class="trusted-by-section tw-py-20 bg-neutral-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-header text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title fw-bold tw-text-3xl text-heading mb-4">
+                        Trusted by 500+ Enterprises and Startups
+                    </h2>
+                    <p class="section-description tw-text-lg text-neutral-600">
+                        Join leading organizations who trust Fyndo to transform their enterprise knowledge management
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="customers-logos tw-mt-12" data-aos="fade-up">
+            <div class="row align-items-center justify-content-center tw-gap-8">
+                <div class="col-lg-2 col-md-3 col-4 text-center">
+                    <img src="assets/images/customers/customer-1.svg" alt="Customer Logo" class="customer-logo">
+                </div>
+                <div class="col-lg-2 col-md-3 col-4 text-center">
+                    <img src="assets/images/customers/customer-2.svg" alt="Customer Logo" class="customer-logo">
+                </div>
+                <div class="col-lg-2 col-md-3 col-4 text-center">
+                    <img src="assets/images/customers/customer-3.svg" alt="Customer Logo" class="customer-logo">
+                </div>
+                <div class="col-lg-2 col-md-3 col-4 text-center">
+                    <img src="assets/images/customers/customer-4.svg" alt="Customer Logo" class="customer-logo">
+                </div>
+                <div class="col-lg-2 col-md-3 col-4 text-center">
+                    <img src="assets/images/customers/customer-5.svg" alt="Customer Logo" class="customer-logo">
+                </div>
+                <div class="col-lg-2 col-md-3 col-4 text-center">
+                    <img src="assets/images/customers/customer-6.svg" alt="Customer Logo" class="customer-logo">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==================== Trusted By Section End Here ==================== -->
+
+<!-- ==================== CTA Section Start Here ==================== -->
+<section class="cta-section tw-py-20 bg-gradient-primary text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="cta-content text-center" data-aos="fade-up">
+                    <h2 class="cta-title fw-bold tw-text-4xl mb-4">
+                        AI Search and Agents to Automate Your Workflow
+                    </h2>
+                    <p class="cta-description tw-text-xl text-white-80 tw-max-w-3xl mx-auto mb-5">
+                        Transform how your organization processes information and makes decisions. Start your journey with Fyndo today.
+                    </p>
+                    <a href="demo.html" class="btn btn-accent btn-lg tw-px-8">Book a Demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==================== CTA Section End Here ==================== -->
+
+<!-- ==================== Footer Start Here ==================== -->
+<footer class="footer-section bg-dark text-white tw-py-16">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <div class="footer-widget">
+                    <div class="footer-logo mb-4">
+                        <img src="assets/images/logo/fyndo-logo.png" alt="Fyndo" class="footer-logo-img">
+                    </div>
+                    <p class="footer-description text-white-70 tw-leading-relaxed mb-4">
+                        Transform your enterprise knowledge into actionable intelligence with AI-powered search and workplace assistance.
+                    </p>
+                    <div class="footer-social d-flex tw-gap-3">
+                        <a href="#" class="social-link">
+                            <i class="ph ph-twitter-logo"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="ph ph-linkedin-logo"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="ph ph-youtube-logo"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="ph ph-github-logo"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <div class="footer-widget">
+                    <h4 class="widget-title fw-bold text-white mb-4">Product</h4>
+                    <ul class="footer-links">
+                        <li><a href="product/enterprise-search.html" class="footer-link text-white-70 hover-text-white">Enterprise Search</a></li>
+                        <li><a href="product/knowledge-base.html" class="footer-link text-white-70 hover-text-white">Knowledge Base</a></li>
+                        <li><a href="product/ai-workplace-assistant.html" class="footer-link text-white-70 hover-text-white">AI Workplace Assistant</a></li>
+                        <li><a href="product/integrations.html" class="footer-link text-white-70 hover-text-white">Integrations</a></li>
+                        <li><a href="product/platform-features.html" class="footer-link text-white-70 hover-text-white">Platform Features</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <div class="footer-widget">
+                    <h4 class="widget-title fw-bold text-white mb-4">Solutions</h4>
+                    <ul class="footer-links">
+                        <li><a href="solutions/engineering.html" class="footer-link text-white-70 hover-text-white">Engineering</a></li>
+                        <li><a href="solutions/sales-enablement.html" class="footer-link text-white-70 hover-text-white">Sales Enablement</a></li>
+                        <li><a href="solutions/marketing-intelligence.html" class="footer-link text-white-70 hover-text-white">Marketing Intelligence</a></li>
+                        <li><a href="solutions/customer-support.html" class="footer-link text-white-70 hover-text-white">Customer Support</a></li>
+                        <li><a href="solutions/hr-talent.html" class="footer-link text-white-70 hover-text-white">HR & Talent</a></li>
+                        <li><a href="solutions/executive-insights.html" class="footer-link text-white-70 hover-text-white">Executive Insights</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <div class="footer-widget">
+                    <h4 class="widget-title fw-bold text-white mb-4">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="resources/prompt-library.html" class="footer-link text-white-70 hover-text-white">Prompt Library</a></li>
+                        <li><a href="resources/about.html" class="footer-link text-white-70 hover-text-white">About Fyndo</a></li>
+                        <li><a href="resources/faq.html" class="footer-link text-white-70 hover-text-white">FAQ</a></li>
+                        <li><a href="resources/help-center.html" class="footer-link text-white-70 hover-text-white">Help Center</a></li>
+                        <li><a href="resources/case-studies.html" class="footer-link text-white-70 hover-text-white">Case Studies</a></li>
+                        <li><a href="contact.html" class="footer-link text-white-70 hover-text-white">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom tw-pt-8 tw-mt-8 border-top border-white-20">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="copyright text-white-70 mb-0">&copy; 2025 Fyndo, Inc. All rights reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-bottom-links text-md-end">
+                        <a href="privacy.html" class="footer-link text-white-70 hover-text-white me-4">Privacy Policy</a>
+                        <a href="terms.html" class="footer-link text-white-70 hover-text-white">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ==================== Footer End Here ==================== -->
+
+<!-- Jquery -->
+<script src="SassTech/assets/js/jquery-3.7.1.min.js"></script>
+<!-- Bootstrap -->
+<script src="SassTech/assets/js/bootstrap.bundle.min.js"></script>
+<!-- Phosphor Icon -->
+<script src="SassTech/assets/js/phosphor-icon.js"></script>
+<!-- AOS -->
+<script src="SassTech/assets/js/aos.js"></script>
+<!-- Swiper -->
+<script src="SassTech/assets/js/swiper-bundle.min.js"></script>
+<!-- Magnific Popup -->
+<script src="SassTech/assets/js/magnific-popup.min.js"></script>
+<!-- GSAP -->
+<script src="SassTech/assets/js/gsap.min.js"></script>
+<!-- Custom JS -->
+<script src="assets/js/fyndo-main.js"></script>
+
+</body>
+</html>

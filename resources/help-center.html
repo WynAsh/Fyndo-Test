@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Center - Fyndo</title>
+    <link rel="stylesheet" href="../assets/css/fyndo-main.css">
+    <link rel="icon" type="image/png" href="../assets/images/logo/favicon.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="../assets/images/logo/fyndo-logo.png" alt="Fyndo" height="40">
+                    </a>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-menu">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle">Product</a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-content">
+                                    <a href="../product/enterprise-search.html">Enterprise Search</a>
+                                    <a href="../product/knowledge-base.html">Knowledge Base</a>
+                                    <a href="../product/ai-workplace-assistant.html">AI Workplace Assistant</a>
+                                    <a href="../product/integrations.html">Integrations</a>
+                                    <a href="../product/platform-features.html">Platform Features</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle">Solutions</a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-content">
+                                    <a href="../solutions/engineering.html">Engineering</a>
+                                    <a href="../solutions/sales-enablement.html">Sales Enablement</a>
+                                    <a href="../solutions/marketing-intelligence.html">Marketing Intelligence</a>
+                                    <a href="../solutions/customer-support.html">Customer Support</a>
+                                    <a href="../solutions/hr-talent.html">HR & Talent</a>
+                                    <a href="../solutions/executive-insights.html">Executive Insights</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle">Resources</a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-content">
+                                    <a href="../resources/about.html">About</a>
+                                    <a href="../resources/prompt-library.html">Prompt Library</a>
+                                    <a href="../resources/faq.html">FAQ</a>
+                                    <a href="../resources/help-center.html">Help Center</a>
+                                    <a href="../resources/case-studies.html">Case Studies</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="nav-buttons">
+                        <a href="../demo.html" class="btn btn-outline">Request Demo</a>
+                        <a href="../contact.html" class="btn btn-primary">Get Started</a>
+                    </div>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <div class="mobile-menu-overlay"></div>
+            <div class="mobile-menu-content">
+                <div class="mobile-dropdown">
+                    <div class="mobile-dropdown-header">Product</div>
+                    <div class="mobile-dropdown-content">
+                        <a href="../product/enterprise-search.html">Enterprise Search</a>
+                        <a href="../product/knowledge-base.html">Knowledge Base</a>
+                        <a href="../product/ai-workplace-assistant.html">AI Workplace Assistant</a>
+                        <a href="../product/integrations.html">Integrations</a>
+                        <a href="../product/platform-features.html">Platform Features</a>
+                    </div>
+                </div>
+                <div class="mobile-dropdown">
+                    <div class="mobile-dropdown-header">Solutions</div>
+                    <div class="mobile-dropdown-content">
+                        <a href="../solutions/engineering.html">Engineering</a>
+                        <a href="../solutions/sales-enablement.html">Sales Enablement</a>
+                        <a href="../solutions/marketing-intelligence.html">Marketing Intelligence</a>
+                        <a href="../solutions/customer-support.html">Customer Support</a>
+                        <a href="../solutions/hr-talent.html">HR & Talent</a>
+                        <a href="../solutions/executive-insights.html">Executive Insights</a>
+                    </div>
+                </div>
+                <div class="mobile-dropdown">
+                    <div class="mobile-dropdown-header">Resources</div>
+                    <div class="mobile-dropdown-content">
+                        <a href="../resources/about.html">About</a>
+                        <a href="../resources/prompt-library.html">Prompt Library</a>
+                        <a href="../resources/faq.html">FAQ</a>
+                        <a href="../resources/help-center.html">Help Center</a>
+                        <a href="../resources/case-studies.html">Case Studies</a>
+                    </div>
+                </div>
+                <div class="mobile-menu-buttons">
+                    <a href="../demo.html" class="btn btn-outline">Request Demo</a>
+                    <a href="../contact.html" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Help Center</h1>
+                    <p class="hero-subtitle">Get the most out of Fyndo with our comprehensive guides, tutorials, and resources</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search Section -->
+        <section class="section">
+            <div class="container">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search help articles, guides, and tutorials..." class="search-input" id="help-search">
+                    <button class="btn btn-primary">Search</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Articles -->
+        <section class="section">
+            <div class="container">
+                <h2>Popular Articles</h2>
+                <div class="help-grid">
+                    <div class="help-card">
+                        <div class="help-icon">🚀</div>
+                        <h3>Getting Started with Fyndo</h3>
+                        <p>Complete setup guide from account creation to your first successful search</p>
+                        <a href="#" class="help-link">Read Guide →</a>
+                    </div>
+                    
+                    <div class="help-card">
+                        <div class="help-icon">🔗</div>
+                        <h3>Connecting Your Tools</h3>
+                        <p>Step-by-step instructions for integrating Slack, Gmail, Drive, and other tools</p>
+                        <a href="#" class="help-link">Read Guide →</a>
+                    </div>
+                    
+                    <div class="help-card">
+                        <div class="help-icon">🔍</div>
+                        <h3>Advanced Search Techniques</h3>
+                        <p>Master Fyndo's search capabilities with filters, operators, and AI-powered queries</p>
+                        <a href="#" class="help-link">Read Guide →</a>
+                    </div>
+                    
+                    <div class="help-card">
+                        <div class="help-icon">🤖</div>
+                        <h3>Using the AI Assistant</h3>
+                        <p>Get the most from your AI workplace assistant with prompts and best practices</p>
+                        <a href="#" class="help-link">Read Guide →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Help Categories -->
+        <section class="section section-gray">
+            <div class="container">
+                <h2>Browse by Category</h2>
+                <div class="help-categories">
+                    <div class="help-category">
+                        <div class="category-header">
+                            <h3>🏁 Getting Started</h3>
+                            <span class="article-count">12 articles</span>
+                        </div>
+                        <div class="category-articles">
+                            <a href="#">Creating your Fyndo account</a>
+                            <a href="#">First-time setup checklist</a>
+                            <a href="#">Understanding your dashboard</a>
+                            <a href="#">Inviting team members</a>
+                            <a href="#">Setting up permissions</a>
+                        </div>
+                    </div>
+
+                    <div class="help-category">
+                        <div class="category-header">
+                            <h3>🔗 Integrations</h3>
+                            <span class="article-count">25 articles</span>
+                        </div>
+                        <div class="category-articles">
+                            <a href="#">Connecting Slack workspaces</a>
+                            <a href="#">Google Workspace integration</a>
+                            <a href="#">Microsoft 365 setup</a>
+                            <a href="#">GitHub repository connection</a>
+                            <a href="#">Salesforce CRM integration</a>
+                        </div>
+                    </div>
+
+                    <div class="help-category">
+                        <div class="category-header">
+                            <h3>🔍 Search & Discovery</h3>
+                            <span class="article-count">18 articles</span>
+                        </div>
+                        <div class="category-articles">
+                            <a href="#">Basic search techniques</a>
+                            <a href="#">Using search filters</a>
+                            <a href="#">Boolean search operators</a>
+                            <a href="#">Saved searches and alerts</a>
+                            <a href="#">Search result ranking</a>
+                        </div>
+                    </div>
+
+                    <div class="help-category">
+                        <div class="category-header">
+                            <h3>🤖 AI Assistant</h3>
+                            <span class="article-count">15 articles</span>
+                        </div>
+                        <div class="category-articles">
+                            <a href="#">Asking effective questions</a>
+                            <a href="#">Understanding AI responses</a>
+                            <a href="#">Training your assistant</a>
+                            <a href="#">AI-powered summaries</a>
+                            <a href="#">Content generation tips</a>
+                        </div>
+                    </div>
+
+                    <div class="help-category">
+                        <div class="category-header">
+                            <h3>👥 Team Management</h3>
+                            <span class="article-count">10 articles</span>
+                        </div>
+                        <div class="category-articles">
+                            <a href="#">Managing user roles</a>
+                            <a href="#">Setting up departments</a>
+                            <a href="#">Access control policies</a>
+                            <a href="#">Usage analytics</a>
+                            <a href="#">Team collaboration features</a>
+                        </div>
+                    </div>
+
+                    <div class="help-category">
+                        <div class="category-header">
+                            <h3>🛡️ Security & Privacy</h3>
+                            <span class="article-count">8 articles</span>
+                        </div>
+                        <div class="category-articles">
+                            <a href="#">Data encryption and security</a>
+                            <a href="#">Privacy settings</a>
+                            <a href="#">SSO configuration</a>
+                            <a href="#">Compliance features</a>
+                            <a href="#">Data retention policies</a>
+                        </div>
+                    </div>
+
+                    <div class="help-category">
+                        <div class="category-header">
+                            <h3>⚙️ Settings & Configuration</h3>
+                            <span class="article-count">14 articles</span>
+                        </div>
+                        <div class="category-articles">
+                            <a href="#">Account settings overview</a>
+                            <a href="#">Notification preferences</a>
+                            <a href="#">Workspace customization</a>
+                            <a href="#">API configuration</a>
+                            <a href="#">Backup and export</a>
+                        </div>
+                    </div>
+
+                    <div class="help-category">
+                        <div class="category-header">
+                            <h3>🔧 Troubleshooting</h3>
+                            <span class="article-count">16 articles</span>
+                        </div>
+                        <div class="category-articles">
+                            <a href="#">Common login issues</a>
+                            <a href="#">Integration not working</a>
+                            <a href="#">Search results missing</a>
+                            <a href="#">Performance optimization</a>
+                            <a href="#">Browser compatibility</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Tutorials -->
+        <section class="section">
+            <div class="container">
+                <h2>Video Tutorials</h2>
+                <div class="video-grid">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <div class="video-placeholder">
+                                <div class="play-button">▶</div>
+                            </div>
+                            <span class="video-duration">5:30</span>
+                        </div>
+                        <div class="video-content">
+                            <h3>Fyndo Quick Start Guide</h3>
+                            <p>Get up and running with Fyndo in under 6 minutes</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <div class="video-placeholder">
+                                <div class="play-button">▶</div>
+                            </div>
+                            <span class="video-duration">8:15</span>
+                        </div>
+                        <div class="video-content">
+                            <h3>Setting Up Your First Integration</h3>
+                            <p>Connect Slack and Google Drive to start searching</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <div class="video-placeholder">
+                                <div class="play-button">▶</div>
+                            </div>
+                            <span class="video-duration">12:45</span>
+                        </div>
+                        <div class="video-content">
+                            <h3>Advanced Search Techniques</h3>
+                            <p>Master complex queries and search operators</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <div class="video-placeholder">
+                                <div class="play-button">▶</div>
+                            </div>
+                            <span class="video-duration">7:20</span>
+                        </div>
+                        <div class="video-content">
+                            <h3>AI Assistant Best Practices</h3>
+                            <p>Tips for getting better answers from your AI assistant</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Support -->
+        <section class="section section-dark">
+            <div class="container">
+                <div class="support-content text-center">
+                    <h2>Need More Help?</h2>
+                    <p>Can't find what you're looking for? Our support team is here to help you succeed</p>
+                    
+                    <div class="support-options">
+                        <div class="support-option">
+                            <div class="support-icon">💬</div>
+                            <h3>Live Chat</h3>
+                            <p>Get instant help from our support team</p>
+                            <button class="btn btn-primary">Start Chat</button>
+                        </div>
+
+                        <div class="support-option">
+                            <div class="support-icon">📧</div>
+                            <h3>Email Support</h3>
+                            <p>Send us a detailed message and we'll get back to you</p>
+                            <a href="../contact.html" class="btn btn-outline">Send Email</a>
+                        </div>
+
+                        <div class="support-option">
+                            <div class="support-icon">📞</div>
+                            <h3>Schedule Call</h3>
+                            <p>Book a 1-on-1 session with our experts</p>
+                            <a href="../demo.html" class="btn btn-outline">Book Call</a>
+                        </div>
+                    </div>
+
+                    <div class="support-stats">
+                        <div class="stat">
+                            <strong>< 2 min</strong>
+                            <span>Average chat response time</span>
+                        </div>
+                        <div class="stat">
+                            <strong>98%</strong>
+                            <span>Customer satisfaction rate</span>
+                        </div>
+                        <div class="stat">
+                            <strong>24/7</strong>
+                            <span>Support availability</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="../assets/images/logo/fyndo-logo.png" alt="Fyndo" height="32">
+                    <p>AI-powered workplace intelligence for modern teams</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <a href="../product/enterprise-search.html">Enterprise Search</a>
+                        <a href="../product/knowledge-base.html">Knowledge Base</a>
+                        <a href="../product/ai-workplace-assistant.html">AI Assistant</a>
+                        <a href="../product/integrations.html">Integrations</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Solutions</h4>
+                        <a href="../solutions/engineering.html">Engineering</a>
+                        <a href="../solutions/sales-enablement.html">Sales</a>
+                        <a href="../solutions/marketing-intelligence.html">Marketing</a>
+                        <a href="../solutions/customer-support.html">Support</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <a href="../resources/about.html">About</a>
+                        <a href="../resources/prompt-library.html">Prompt Library</a>
+                        <a href="../resources/faq.html">FAQ</a>
+                        <a href="../resources/help-center.html">Help Center</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="../contact.html">Contact</a>
+                        <a href="../privacy.html">Privacy</a>
+                        <a href="../terms.html">Terms</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Fyndo. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/fyndo-main.js"></script>
+    <script>
+        // Help center specific functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Search functionality
+            const searchInput = document.getElementById('help-search');
+            const helpCards = document.querySelectorAll('.help-card');
+            const categoryArticles = document.querySelectorAll('.category-articles a');
+            
+            searchInput.addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase();
+                
+                // Search help cards
+                helpCards.forEach(card => {
+                    const title = card.querySelector('h3').textContent.toLowerCase();
+                    const description = card.querySelector('p').textContent.toLowerCase();
+                    
+                    if (title.includes(searchTerm) || description.includes(searchTerm)) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+                
+                // Search category articles
+                categoryArticles.forEach(article => {
+                    const text = article.textContent.toLowerCase();
+                    
+                    if (text.includes(searchTerm)) {
+                        article.style.display = 'block';
+                    } else {
+                        article.style.display = 'none';
+                    }
+                });
+            });
+            
+            // Video play simulation
+            const playButtons = document.querySelectorAll('.play-button');
+            
+            playButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    alert('Video tutorial would play here. This is a demo.');
+                });
+            });
+            
+            // Live chat simulation
+            const chatButton = document.querySelector('.support-option .btn-primary');
+            
+            if (chatButton) {
+                chatButton.addEventListener('click', function() {
+                    alert('Live chat would open here. This is a demo.');
+                });
+            }
+        });
+    </script>
+</body>
+</html>

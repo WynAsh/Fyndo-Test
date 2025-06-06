@@ -1,0 +1,691 @@
+﻿{
+    "categories":  {
+                       "it":  {
+                                  "it-knowledge-base":  [
+                                                            {
+                                                                "promptType":  "Project Update",
+                                                                "promptTitle":  "Current Project Overview",
+                                                                "prompt":  "Provide an overview of the [IT Project], detailing the latest progress by each project phase. Highlight any milestones that have been reached so far and outline the upcoming milestones along with their deadlines."
+                                                            },
+                                                            {
+                                                                "promptType":  "Troubleshooting Resource",
+                                                                "promptTitle":  "Network Connectivity Troubleshooting Manual",
+                                                                "prompt":  "Develop a troubleshooting manual for addressing network connectivity problems in [Location]. Offer steps to identify the underlying cause, conduct checks on hardware and software setups, and recommend diagnostic tools for assessing network performance."
+                                                            },
+                                                            {
+                                                                "promptType":  "Milestone Tracking",
+                                                                "promptTitle":  "Software Update Milestone Tracker",
+                                                                "prompt":  "Gather the key milestones associated with the rollout of [Software Update]. Organize these milestones into four main stages: [Development], [Testing], [Pre-deployment], and [Deployment]."
+                                                            },
+                                                            {
+                                                                "promptType":  "Task Distribution Summary",
+                                                                "promptTitle":  "Task Assignments for Migration Project",
+                                                                "prompt":  "Create a summary of task assignments for the [Migration Project], providing a comprehensive breakdown of tasks allocated to distinct teams or individuals. For each assignment, include the anticipated completion date and its current progress."
+                                                            },
+                                                            {
+                                                                "promptType":  "Upgrade Planning",
+                                                                "promptTitle":  "Timeline for Network Upgrade",
+                                                                "prompt":  "Identify the timeline for the network upgrade at [Office], including a list of all important milestones, deadlines, and interdependencies for each stage of the upgrade process."
+                                                            }
+                                                        ],
+                                  "security-compliance":  [
+                                                              {
+                                                                  "promptType":  "Audit Compilation",
+                                                                  "promptTitle":  "Assemble Security Audit Findings",
+                                                                  "prompt":  "Gather the latest security audit findings for [System], presenting a detailed account of all discovered vulnerabilities, weaknesses, and areas lacking in compliance from the audit."
+                                                              },
+                                                              {
+                                                                  "promptType":  "Maintenance Notification",
+                                                                  "promptTitle":  "Create User Alert for Planned Maintenance",
+                                                                  "prompt":  "Draft a notification for users about a planned maintenance period for [Service], ensuring that the message is easy to understand and emphasizes the possible effects on user access."
+                                                              },
+                                                              {
+                                                                  "promptType":  "Compliance Documentation Retrieval",
+                                                                  "promptTitle":  "Obtain Regulatory Compliance Papers",
+                                                                  "prompt":  "Fetch the compliance documentation related to [Regulation], providing a detailed summary of the necessary regulatory requirements, guidelines, and standards applicable to [Organization]."
+                                                              },
+                                                              {
+                                                                  "promptType":  "Log Analysis",
+                                                                  "promptTitle":  "Examine Access Control Activity Logs",
+                                                                  "prompt":  "Review access control activity logs for [User] in [System] during the previous [Time Period]. Include both successful and failed login attempts, detailing the associated [IP Address] or [Device ID] and the methods of authentication used."
+                                                              },
+                                                              {
+                                                                  "promptType":  "Vulnerability Report Research",
+                                                                  "promptTitle":  "Identify Software Security Vulnerabilities",
+                                                                  "prompt":  "Find security vulnerability reports for [Software]. For each identified vulnerability, specify the impacted components and provide the severity ratings associated with each."
+                                                              }
+                                                          ],
+                                  "it-architecture":  [
+                                                          {
+                                                              "promptType":  "Network Architecture Prompt",
+                                                              "promptTitle":  "Find Network Infrastructure Blueprint",
+                                                              "prompt":  "Identify the blueprint of the network infrastructure for [Data Center]. Illustrate the layers involved, highlighting the connections between core, distribution, and access layers, including any failover strategies."
+                                                          },
+                                                          {
+                                                              "promptType":  "Onboarding Checklist",
+                                                              "promptTitle":  "Create New Hire Onboarding Guide",
+                                                              "prompt":  "Draft a checklist for onboarding new employees, specifically for granting access to [Tool Name]. Ensure the guide is customized for the typical network setup at [Location], taking into account distinct infrastructure elements and possible external issues that might affect connectivity."
+                                                          },
+                                                          {
+                                                              "promptType":  "API Documentation Prompt",
+                                                              "promptTitle":  "Provide API Connection Documentation",
+                                                              "prompt":  "Gather and present the documentation related to [API] connectivity, offering a detailed description of the API architecture, the protocols used for communication, and the data formats that are supported."
+                                                          },
+                                                          {
+                                                              "promptType":  "Integration Guidelines Summary",
+                                                              "promptTitle":  "Outline Integration Steps for Tool",
+                                                              "prompt":  "Create a summary of the integration steps required for [Tool] to work with [System]. Break down the instructions into a sequential process, categorized by specific use cases or business scenarios."
+                                                          },
+                                                          {
+                                                              "promptType":  "Server Configuration Query",
+                                                              "promptTitle":  "Fetch Recent Server Setup Details",
+                                                              "prompt":  "Obtain the most recent configuration settings for [Server], detailing aspects such as the version of the operating system, kernel configurations, and software that is installed. Organize the information by key components."
+                                                          }
+                                                      ],
+                                  "it-system-health":  [
+                                                           {
+                                                               "promptType":  "Log Analysis",
+                                                               "promptTitle":  "Examine Recent Server Logs",
+                                                               "prompt":  "Review the server logs for [Server] from the last 24 hours. Categorize the findings into system health, network operations, and security incidents."
+                                                           },
+                                                           {
+                                                               "promptType":  "Report Generation",
+                                                               "promptTitle":  "Create Weekly System Health Report Format",
+                                                               "prompt":  "Draft a template for a weekly system health report for [Application Name]. Ensure it is straightforward and user-friendly, minimizing technical language while providing appendices for detailed technical information."
+                                                           },
+                                                           {
+                                                               "promptType":  "Security Documentation",
+                                                               "promptTitle":  "Document Security Patch Updates",
+                                                               "prompt":  "Prepare a detailed document of security patches for [System], including information such as patch identifiers, deployment dates, and the vulnerabilities they aim to fix."
+                                                           },
+                                                           {
+                                                               "promptType":  "Network Analysis",
+                                                               "promptTitle":  "Review Network Latency Data",
+                                                               "prompt":  "Condense the network latency data for [Region]. Break it down by traffic type to identify whether certain traffic forms are more vulnerable to latency problems."
+                                                           },
+                                                           {
+                                                               "promptType":  "Backup Analysis",
+                                                               "promptTitle":  "Evaluate Database Backup Effectiveness",
+                                                               "prompt":  "Assess the success rates of backups for [Database] during the specified [Time Period]. Highlight failure rates and any persistent issues responsible for backup failures."
+                                                           }
+                                                       ]
+                              },
+                       "human-resources":  {
+                                               "recruiting-hiring":  [
+                                                                         {
+                                                                             "promptType":  "Recruitment",
+                                                                             "promptTitle":  "Find Candidate Resumes",
+                                                                             "prompt":  "Search for the resume of [Candidate] who applied for the [Job Title] role. Summarize their professional experience, including previous job titles, companies they worked for, duration of employment, and significant accomplishments."
+                                                                         },
+                                                                         {
+                                                                             "promptType":  "Job Description Creation",
+                                                                             "promptTitle":  "Draft a Job Description",
+                                                                             "prompt":  "Create a job description for the position of [Role] within the [Department]. Use the organizational chart to illustrate how this position integrates with the team and aligns with the overall objectives of the company. Ensure it reflects [Company\u0027s] core values and goals."
+                                                                         },
+                                                                         {
+                                                                             "promptType":  "Interview Evaluation",
+                                                                             "promptTitle":  "Gather Candidate Interview Insights",
+                                                                             "prompt":  "Assemble the feedback from interviews conducted for [Candidate] applying for the [Job Title] position. Organize the insights into key themes and arrange them by the names of the interviewers."
+                                                                         },
+                                                                         {
+                                                                             "promptType":  "Job Openings Retrieval",
+                                                                             "promptTitle":  "List Current Job Vacancies",
+                                                                             "prompt":  "Provide a list of active job vacancies in the [Department]. Include details such as job descriptions, posting dates, application deadlines, and hiring managers. Sort the listings by application status and order them by posting date."
+                                                                         },
+                                                                         {
+                                                                             "promptType":  "Offer Letter Template Search",
+                                                                             "promptTitle":  "Find Offer Letter Template",
+                                                                             "prompt":  "Identify the offer letter template for the [Job Title] position, covering salary and compensation details, expectations specific to the role, the work location and remote work policy, as well as information regarding the benefits package."
+                                                                         }
+                                                                     ],
+                                               "employee-onboarding":  [
+                                                                           {
+                                                                               "promptType":  "Document Retrieval",
+                                                                               "promptTitle":  "Find Onboarding Documentation",
+                                                                               "prompt":  "Search for the onboarding materials related to [Employee]. Include a summary of any differences in the onboarding procedures and evaluate [Employee]\u0027s onboarding journey against the average experience across the company."
+                                                                           },
+                                                                           {
+                                                                               "promptType":  "Guide Creation",
+                                                                               "promptTitle":  "Create New Hire Welcome Guide",
+                                                                               "prompt":  "Develop a welcome guide for incoming employees in [Department]. This guide should aid new hires in grasping the organizational culture, policies, and their designated roles and responsibilities within the team."
+                                                                           },
+                                                                           {
+                                                                               "promptType":  "Checklist Summary",
+                                                                               "promptTitle":  "Overview of New Hire Checklist",
+                                                                               "prompt":  "Summarize the checklist for newcomers in [Location]. Gather and provide a list of all internal systems and tools essential for new hires to fulfill their job responsibilities in [Location]."
+                                                                           },
+                                                                           {
+                                                                               "promptType":  "Training Record Retrieval",
+                                                                               "promptTitle":  "Access Training Records for Staff",
+                                                                               "prompt":  "Retrieve training records for all team members in [Department], including completed courses, certification statuses, and any skill development programs attended over the past [Time Period]."
+                                                                           },
+                                                                           {
+                                                                               "promptType":  "Action Item Compilation",
+                                                                               "promptTitle":  "Gather New Hire Meeting Action Items",
+                                                                               "prompt":  "Collect action items discussed in the last meeting about new hires. For every action item, provide the assigned person and any pertinent information regarding its completion or follow-up status."
+                                                                           }
+                                                                       ],
+                                               "employee-engagement":  [
+                                                                           {
+                                                                               "promptType":  "Employee Feedback Analysis",
+                                                                               "promptTitle":  "Evaluate Employee Satisfaction Survey Results",
+                                                                               "prompt":  "Examine the results from the most recent employee satisfaction survey. Categorize feedback by relevant demographic segments and highlight trends regarding employee satisfaction, identifying notable increases or decreases in critical satisfaction indicators."
+                                                                           },
+                                                                           {
+                                                                               "promptType":  "Recognition Program Design",
+                                                                               "promptTitle":  "Create an Outline for Employee Recognition Initiatives",
+                                                                               "prompt":  "Draft a comprehensive outline for an employee recognition program tailored for [Company Name]. Detail how this initiative reflects the companyâ€™s core values, mission, and strategic business objectives."
+                                                                           },
+                                                                           {
+                                                                               "promptType":  "Upskilling Training Strategy",
+                                                                               "promptTitle":  "Formulate a Training Strategy for Skill Development",
+                                                                               "prompt":  "Create a skill development plan aimed at enhancing employees\u0027 abilities in [Skill]. Classify employees by their existing skill levels, and devise personalized learning trajectories for each category."
+                                                                           },
+                                                                           {
+                                                                               "promptType":  "Training Progress Assessment",
+                                                                               "promptTitle":  "Review Leadership Training Participation",
+                                                                               "prompt":  "Assess the completion status of leadership training for [Employee]. Provide a summary of the primary learning goals achieved by [Employee] in the successfully finished training programs."
+                                                                           },
+                                                                           {
+                                                                               "promptType":  "CEO Meeting Insights",
+                                                                               "promptTitle":  "Retrieve Insights from CEO Skip-Level Meetings",
+                                                                               "prompt":  "Gather insights from skip-level meetings held with the CEO in [Month]. Identify significant patterns concerning employee engagement and job satisfaction, and categorize the observations by departmental divisions."
+                                                                           }
+                                                                       ],
+                                               "performance-review":  [
+                                                                          {
+                                                                              "promptType":  "Feedback Retrieval",
+                                                                              "promptTitle":  "Obtain Latest 360 Feedback",
+                                                                              "prompt":  "Obtain the latest 360 feedback report for [Employee], emphasizing their key strengths, growth opportunities, and any common patterns. Organize the data by type and source of feedback."
+                                                                          },
+                                                                          {
+                                                                              "promptType":  "Performance Evaluation Template",
+                                                                              "promptTitle":  "Create Mid-Year Review Document",
+                                                                              "prompt":  "Craft a mid-year performance evaluation document. Ensure it contains sections for the employeeâ€™s self-assessment and feedback for their supervisor. Maintain a friendly and supportive tone."
+                                                                          },
+                                                                          {
+                                                                              "promptType":  "Performance Enhancement Summary",
+                                                                              "promptTitle":  "Outline Improvement Action Plan",
+                                                                              "prompt":  "Outline the performance improvement action plan for [Employee]. Include information about any recommended coaching, mentoring opportunities, and scheduled training sessions with their timelines."
+                                                                          },
+                                                                          {
+                                                                              "promptType":  "Team Metrics Analysis",
+                                                                              "promptTitle":  "Gather Team Performance Data",
+                                                                              "prompt":  "Gather essential performance data for [Team] during [Time Period]. Compare this data with previous quarters or across other teams to assess performance trends."
+                                                                          },
+                                                                          {
+                                                                              "promptType":  "Development Goals Access",
+                                                                              "promptTitle":  "Review Department Development Objectives",
+                                                                              "prompt":  "Review and provide the current employee development objectives for [Department]. Explain how these objectives connect with the overall goals of the organization."
+                                                                          }
+                                                                      ]
+                                           },
+                       "marketing":  {
+                                         "seo":  [
+                                                     {
+                                                         "promptType":  "SEO Performance Analysis",
+                                                         "promptTitle":  "Analyze Social Media Campaign Assets",
+                                                         "prompt":  "Find the SEO performance metrics for [Website] from the previous quarter. Include key indicators such as organic traffic, keyword positions, click-through rate, bounce rate, and conversion metrics."
+                                                     },
+                                                     {
+                                                         "promptType":  "User Engagement Insights",
+                                                         "promptTitle":  "Gather Heatmap Data for Landing Page",
+                                                         "prompt":  "Collect the heatmap analytics for [Landing Page], detailing click, scroll, and attention metrics from [Time Period]. Provide insights categorized by device type and user demographics."
+                                                     },
+                                                     {
+                                                         "promptType":  "Landing Page Design Review",
+                                                         "promptTitle":  "Explore Landing Page Design History",
+                                                         "prompt":  "Review all prior iterations of the [Landing Page] design. Document any modifications made based on A/B testing findings, noting changes tailored for mobile and desktop views."
+                                                     },
+                                                     {
+                                                         "promptType":  "Creative Headline Generation",
+                                                         "promptTitle":  "Create Catchy Headlines for Landing Page",
+                                                         "prompt":  "Generate five eye-catching headlines for a landing page aimed at promoting [Offer]. Include variations highlighting the key selling points of [Offer], such as pricing, user-friendliness, or results. Ensure that the headlines are optimized for SEO."
+                                                     },
+                                                     {
+                                                         "promptType":  "Traffic Source Analysis",
+                                                         "promptTitle":  "Analyze Traffic Sources for Landing Page",
+                                                         "prompt":  "Collect data on the traffic sources for [Landing Page]. Assess the amount of traffic coming from each source and pinpoint the channels that are yielding the best performance."
+                                                     }
+                                                 ],
+                                         "content-marketing":  [
+                                                                   {
+                                                                       "promptType":  "Branding Guidelines",
+                                                                       "promptTitle":  "Assemble Brand Standards Document",
+                                                                       "prompt":  "Gather and document the brand standards for [Project], encompassing past campaigns, design guidelines, and creative briefs. Highlight any discrepancies in standards relevant to [Persona]."
+                                                                   },
+                                                                   {
+                                                                       "promptType":  "Content Review",
+                                                                       "promptTitle":  "Collect Team Insights on Content Draft",
+                                                                       "prompt":  "Solicit feedback from the team on the draft of [Content], gathering observations regarding tone, messaging, and clarity. Organize feedback by team member and classify it by feedback type."
+                                                                   },
+                                                                   {
+                                                                       "promptType":  "Blog Development",
+                                                                       "promptTitle":  "Create a Blog Post for Product Launch",
+                                                                       "prompt":  "Compose a 750-word blog entry to announce the launch of [Product], detailing its key features and advantages for [Persona]. The target audience for [Product] consists of [Demographic]. Adopt a friendly and informative tone, steering clear of technical jargon."
+                                                                   },
+                                                                   {
+                                                                       "promptType":  "Data Analysis",
+                                                                       "promptTitle":  "Extract Content Performance Metrics",
+                                                                       "prompt":  "Collect and analyze performance metrics for content associated with [Product] from [Date], focusing on views, engagement statistics, and average engagement duration across [Platforms]."
+                                                                   },
+                                                                   {
+                                                                       "promptType":  "Content Structuring",
+                                                                       "promptTitle":  "Develop an Outline for a Blog Entry",
+                                                                       "prompt":  "Create an outline for a blog entry on [Topic] targeted at [Audience], incorporating key elements that highlight primary areas of interest for the readership. The structure should aim to both educate and engage."
+                                                                   }
+                                                               ],
+                                         "social-media":  [
+                                                              {
+                                                                  "promptType":  "Social Media Analytics",
+                                                                  "promptTitle":  "Gather Engagement Metrics for Campaign",
+                                                                  "prompt":  "Gather engagement metrics for the [Campaign] across all social media platforms over the last [Time Frame]. Include a comparison of engagement rates between various content formats."
+                                                              },
+                                                              {
+                                                                  "promptType":  "Asset Management",
+                                                                  "promptTitle":  "Find Social Media Content for Campaign",
+                                                                  "prompt":  "Identify all social media content related to [Campaign], including visuals, videos, graphics, and advertising text. Evaluate their performance from [Start Date] to [End Date] across [Selected Platforms]."
+                                                              },
+                                                              {
+                                                                  "promptType":  "Competitive Analysis",
+                                                                  "promptTitle":  "Collect Engagement Metrics for Competitor",
+                                                                  "prompt":  "Collect social media engagement metrics for [Competitor] during [Month], including data on likes, shares, comments, and overall engagement rates for all platforms."
+                                                              },
+                                                              {
+                                                                  "promptType":  "ROI Assessment",
+                                                                  "promptTitle":  "Evaluate Campaign Return on Investment",
+                                                                  "prompt":  "Evaluate the return on investment for [Campaign] by detailing total advertising costs, revenue produced, and cost per acquisition. Compare how individual advertisements are performing."
+                                                              },
+                                                              {
+                                                                  "promptType":  "Content Creation",
+                                                                  "promptTitle":  "Draft a LinkedIn Promotional Post",
+                                                                  "prompt":  "Draft a LinkedIn post to promote [Service] aimed at the audience in [Region]. Ensure the copy grabs attention swiftly, featuring a compelling value proposition that addresses the issues faced by [Target Persona]."
+                                                              }
+                                                          ],
+                                         "product-marketing":  [
+                                                                   {
+                                                                       "promptType":  "Content Retrieval",
+                                                                       "promptTitle":  "Collect Promotional Text for Product Launch",
+                                                                       "prompt":  "Gather all authorized promotional text for the [Product] release, including variations utilized across various channels during the [Date Range]. Emphasize how messaging was tailored for [Target Demographics]."
+                                                                   },
+                                                                   {
+                                                                       "promptType":  "Data Analysis",
+                                                                       "promptTitle":  "Examine Customer Segmentation Insights",
+                                                                       "prompt":  "Review the customer segmentation insights for [Product], covering demographic, geographic, and psychographic factors. Identify segmentation trends from the last [Time Period]."
+                                                                   },
+                                                                   {
+                                                                       "promptType":  "Trend Analysis",
+                                                                       "promptTitle":  "Gather Buyer Persona Insights and Assess Changes",
+                                                                       "prompt":  "Collect buyer persona insights for [Target Audience]. Evaluate trends from the past [Time Period] and compare them with earlier persona data to detect any changes in preferences or behaviors."
+                                                                   },
+                                                                   {
+                                                                       "promptType":  "Asset Location",
+                                                                       "promptTitle":  "Find Campaign Social Media Resources",
+                                                                       "prompt":  "Identify responses from [Product] surveys conducted in [Region], focusing on aspects such as product features, customer satisfaction, and perceived value. Break down responses by significant demographic segments."
+                                                                   },
+                                                                   {
+                                                                       "promptType":  "Competitor Analysis",
+                                                                       "promptTitle":  "Investigate Recent Competitor Marketing Efforts",
+                                                                       "prompt":  "Examine recent marketing activities from [Competitor], including both digital and traditional efforts. Note any changes in their marketing strategies over the past [Time Period]."
+                                                                   }
+                                                               ]
+                                     },
+                       "customer-support":  {
+                                                "support-ticket":  [
+                                                                       {
+                                                                           "promptType":  "Support Inquiry",
+                                                                           "promptTitle":  "Find Resolved Support Cases",
+                                                                           "prompt":  "Identify resolved support cases concerning [Problem] from the past three months, detailing the resolution methods and the support personnel involved. Note recurring trends in these resolutions."
+                                                                       },
+                                                                       {
+                                                                           "promptType":  "Response Template",
+                                                                           "promptTitle":  "Refund Request Template",
+                                                                           "prompt":  "Create a standard response template for handling refund inquiries related to [Service]. Clearly outline the expected timeline for refund processing and when the customer should anticipate receiving their funds."
+                                                                       },
+                                                                       {
+                                                                           "promptType":  "Chat Log Analysis",
+                                                                           "promptTitle":  "Examine Communication Records",
+                                                                           "prompt":  "Review communication logs pertaining to [Issue] from [Date]. Extract significant phrases, error codes, or technical jargon that frequently arise in the conversations."
+                                                                       },
+                                                                       {
+                                                                           "promptType":  "Ticket Follow-Up Summary",
+                                                                           "promptTitle":  "Details of Ticket Follow-Up Actions",
+                                                                           "prompt":  "Provide a summary of the follow-up actions needed for [Ticket], including a recap of the initial issue, steps taken to troubleshoot, and any internal comments made by customer service representatives."
+                                                                       },
+                                                                       {
+                                                                           "promptType":  "Issue Compilation",
+                                                                           "promptTitle":  "Inventory of Software Problems",
+                                                                           "prompt":  "Create an inventory of known issues for [Software Version], encompassing both major and minor bugs, system faults, and performance issues reported by both users and internal teams."
+                                                                       }
+                                                                   ],
+                                                "knowledge-base":  [
+                                                                       {
+                                                                           "promptType":  "Customer Support",
+                                                                           "promptTitle":  "Get Latest Troubleshooting Guide",
+                                                                           "prompt":  "Fetch the most current troubleshooting guide for [Product]. Be sure to include links to pertinent knowledge base resources, FAQs, and user documentation that outline solutions to these issues."
+                                                                       },
+                                                                       {
+                                                                           "promptType":  "Customer Support",
+                                                                           "promptTitle":  "Create Knowledge Base Entry",
+                                                                           "prompt":  "Draft a knowledge base entry that elaborates on how to resolve [Problem] related to [Product]. Provide detailed, step-by-step guidance, identify common causes for this issue, and suggest possible solutions or alternatives."
+                                                                       },
+                                                                       {
+                                                                           "promptType":  "Customer Support",
+                                                                           "promptTitle":  "Condense Installation Guidelines",
+                                                                           "prompt":  "Provide a brief overview of installation guidelines for [Service], including a stepwise approach for various installation environments. Mention all necessary prerequisites for installation."
+                                                                       },
+                                                                       {
+                                                                           "promptType":  "Customer Support",
+                                                                           "promptTitle":  "Evaluate Feature Comparison",
+                                                                           "prompt":  "Conduct an in-depth comparison of features between [Product A] and [Product B]. Highlight any relevant internal product documentation, release notes, or product roadmaps that discuss upcoming feature enhancements."
+                                                                       },
+                                                                       {
+                                                                           "promptType":  "Customer Support",
+                                                                           "promptTitle":  "Gather Performance Metrics",
+                                                                           "prompt":  "Assemble product performance metrics for [Feature], detailing critical statistics such as load times, usage rates, error frequency, and customer satisfaction scores over the last year."
+                                                                       }
+                                                                   ],
+                                                "support-optimization":  [
+                                                                             {
+                                                                                 "promptType":  "Customer Support",
+                                                                                 "promptTitle":  "Fetch Customer Ticket History",
+                                                                                 "prompt":  "Gather the ticket records for [Customer ID] from the past month, covering all current, closed, and pending tickets. Make sure to include the support agents assigned and any internal notes related to these tickets."
+                                                                             },
+                                                                             {
+                                                                                 "promptType":  "Customer Support",
+                                                                                 "promptTitle":  "Evaluate Response Times",
+                                                                                 "prompt":  "Assess the response times for [Customer Segment] over the last three months, detailing the average initial response times, overall resolution times, and rates of escalations. Provide a breakdown by distinct support channels."
+                                                                             },
+                                                                             {
+                                                                                 "promptType":  "Customer Feedback",
+                                                                                 "promptTitle":  "Find Survey Feedback",
+                                                                                 "prompt":  "Identify the feedback from surveys regarding [Issue] from [Survey Type] that were conducted between [Start Date] and [End Date]. Focus on responses from [Customer Segment]."
+                                                                             },
+                                                                             {
+                                                                                 "promptType":  "Performance Analysis",
+                                                                                 "promptTitle":  "Agent Performance Summary",
+                                                                                 "prompt":  "Create a performance summary for agents working with [Client] over the last [Time Period]. Include insights on the average Net Promoter Score (NPS) for tickets handled by the team."
+                                                                             },
+                                                                             {
+                                                                                 "promptType":  "Response Time Analysis",
+                                                                                 "promptTitle":  "Examine Support Response Durations",
+                                                                                 "prompt":  "Investigate the response durations from customer support during the occurrence of [Event] from [Event Start Date] to [Event End Date]. Differentiate the response durations by [Support Channels]."
+                                                                             }
+                                                                         ],
+                                                "customer-feedback":  [
+                                                                          {
+                                                                              "promptType":  "Customer Feedback Analysis",
+                                                                              "promptTitle":  "Condense Customer Opinions",
+                                                                              "prompt":  "Create a condensed overview of customer opinions and suggestions regarding [Feature] from [Support Channels]. Organize the feedback based on customer demographics and highlight any common concerns, requests for enhancements, or challenges."
+                                                                          },
+                                                                          {
+                                                                              "promptType":  "Customer Follow-Up Communication",
+                                                                              "promptTitle":  "Thank You Email to Customer",
+                                                                              "prompt":  "Draft a personalized thank you email to [Customer] expressing appreciation for their insights on [Feature]. Ensure the message has a friendly tone and prioritizes the customerâ€™s importance and perspective."
+                                                                          },
+                                                                          {
+                                                                              "promptType":  "Feedback Compilation",
+                                                                              "promptTitle":  "Gather Customer Opinions",
+                                                                              "prompt":  "Assemble insights from customer feedback regarding [Service] specific to [Region], incorporating survey results, NPS figures, and comments from support tickets. Classify the feedback by customer category and analyze it based on sentiment."
+                                                                          },
+                                                                          {
+                                                                              "promptType":  "NPS Insights Retrieval",
+                                                                              "promptTitle":  "Fetch Latest NPS Results",
+                                                                              "prompt":  "Obtain the most recent NPS metrics for [Service], paired with the relevant customer feedback from the previous quarter. Break down the NPS results according to various customer segments."
+                                                                          },
+                                                                          {
+                                                                              "promptType":  "Satisfaction Trend Analysis",
+                                                                              "promptTitle":  "Evaluate Customer Satisfaction Data",
+                                                                              "prompt":  "Examine customer satisfaction data for [Region]. Present comparative insights from the last two quarters to illustrate any emerging patterns or changes in satisfaction."
+                                                                          }
+                                                                      ]
+                                            },
+                       "engineering":  {
+                                           "code-writing":  [
+                                                                {
+                                                                    "promptType":  "API Development",
+                                                                    "promptTitle":  "Design a RESTful Service",
+                                                                    "prompt":  "Design a RESTful service in [Programming Language] that enables CRUD functionalities for [Database]. The service must implement user authentication and authorization via [Authentication Method]. Ensure integration of logging and monitoring with [Logging Framework] and [Monitoring Tool]."
+                                                                },
+                                                                {
+                                                                    "promptType":  "Scripting",
+                                                                    "promptTitle":  "Automate Deployment with Python",
+                                                                    "prompt":  "Create a Python script that automates the setup of [Technology] on [Cloud Platform] while applying infrastructure-as-code methodologies. The script must include settings for [Specific Services], and should feature comprehensive logging and handle errors effectively."
+                                                                },
+                                                                {
+                                                                    "promptType":  "Code Review",
+                                                                    "promptTitle":  "Evaluate Project Code Repository",
+                                                                    "prompt":  "Examine the code repository for [Project] with an emphasis on recent pull requests dated between [Date Range]. Categorize the code modifications into enhancements, bug resolutions, and performance optimizations."
+                                                                },
+                                                                {
+                                                                    "promptType":  "Containerization",
+                                                                    "promptTitle":  "Develop a Dockerfile",
+                                                                    "prompt":  "Create a Dockerfile to encapsulate the [Application] using the [Base Image]. Provide clear documentation for each step and apply best practices to ensure the final image is secure and free from vulnerabilities."
+                                                                },
+                                                                {
+                                                                    "promptType":  "Design Documentation",
+                                                                    "promptTitle":  "Review Module Design Modifications",
+                                                                    "prompt":  "Provide an overview of the modifications made to the [Module] design since [Version]. Filter these changes based on documentation from [Release Time Period] and emphasize the details most relevant to the [Team/Department]."
+                                                                }
+                                                            ],
+                                           "sprint-planning":  [
+                                                                   {
+                                                                       "promptType":  "Task Management",
+                                                                       "promptTitle":  "Fetch Recent Commits",
+                                                                       "prompt":  "Find the most recent commits in the [Repository] on the [Branch]. Include details such as the author\u0027s name, date of commit, and a brief overview of the changes made."
+                                                                   },
+                                                                   {
+                                                                       "promptType":  "Task Organization",
+                                                                       "promptTitle":  "Identify Task Assignments for Sprint",
+                                                                       "prompt":  "Identify all task assignments related to [Sprint], specifically for [Team Name or Member]. Organize these tasks by their current status, including important details like priority ranking, estimated completion time, and any associated dependencies."
+                                                                   },
+                                                                   {
+                                                                       "promptType":  "Meeting Follow-Up",
+                                                                       "promptTitle":  "Extract Action Items from Design Review",
+                                                                       "prompt":  "Extract and summarize all action items from the most recent design review meeting for [Project]. Classify these action items by [Team or Department] and indicate their urgency level and due dates."
+                                                                   },
+                                                                   {
+                                                                       "promptType":  "Project Tracking",
+                                                                       "promptTitle":  "Get Project Progress Update",
+                                                                       "prompt":  "Get the latest update on the [Project], detailing current tasks, recent changes, and significant milestones. Review pull requests from [Date Range] and categorize changes as feature enhancements, bug fixes, or performance tweaks."
+                                                                   },
+                                                                   {
+                                                                       "promptType":  "Milestone Planning",
+                                                                       "promptTitle":  "Outline Future Project Milestones",
+                                                                       "prompt":  "Outline the upcoming milestones for [Project]. Provide comprehensive details for each milestone, including objectives, deliverables, and key personnel responsible. Additionally, link relevant tasks, pull requests, or related tickets."
+                                                                   }
+                                                               ],
+                                           "architecture-integration":  [
+                                                                            {
+                                                                                "promptType":  "Documentation Analysis",
+                                                                                "promptTitle":  "Review Compatibility Documentation",
+                                                                                "prompt":  "Review the compatibility documentation that details interactions between [Product A] and [Product B]. Focus on available API integrations, supported configurations, and any documented challenges."
+                                                                            },
+                                                                            {
+                                                                                "promptType":  "Integration Guidelines",
+                                                                                "promptTitle":  "Gather Integration Guidelines",
+                                                                                "prompt":  "Gather guidelines for effectively linking [Technology] with [System]. Make sure the guidelines comply with [Security Standard] and [Scalability Criteria]. Emphasize resources that relate to [Deployment Method]."
+                                                                            },
+                                                                            {
+                                                                                "promptType":  "Architecture Visualization",
+                                                                                "promptTitle":  "Design Microservice Architecture Diagram",
+                                                                                "prompt":  "Design a microservice architecture chart for [Project] utilizing the [Technology Stack] and integrating [Key Integration Points]. Make sure to mark any fault tolerance systems, security protocols, and strategies for scalability."
+                                                                            },
+                                                                            {
+                                                                                "promptType":  "Documentation Retrieval",
+                                                                                "promptTitle":  "Fetch Integration Documentation",
+                                                                                "prompt":  "Fetch all relevant documentation, installation manuals, and code examples for integrating the [Open Source Library] within [Project]. Highlight significant design choices, performance metrics, and outstanding technical issues."
+                                                                            },
+                                                                            {
+                                                                                "promptType":  "Team Discussion Analysis",
+                                                                                "promptTitle":  "Evaluate Technical Team Discussions",
+                                                                                "prompt":  "Evaluate discussions that took place regarding [Technology] with the development team during [Date Range]. Pay special attention to fundamental themes such as architectural choices, implementation tactics, and challenges faced."
+                                                                            }
+                                                                        ],
+                                           "product-documentation":  [
+                                                                         {
+                                                                             "promptType":  "Technical Specifications",
+                                                                             "promptTitle":  "Fetch Latest Specifications",
+                                                                             "prompt":  "Obtain the most recent technical specifications for [Component]. Highlight any updates, revisions, or issues that may affect [Component]\u0027s implementation or effectiveness."
+                                                                         },
+                                                                         {
+                                                                             "promptType":  "Design Documentation",
+                                                                             "promptTitle":  "Find Design Guidelines",
+                                                                             "prompt":  "Search for design guidelines pertaining to [Project], which should include architectural details, coding standards, and version control methodologies. Prioritize documents from [Time Period] relevant to [Technology Stack]."
+                                                                         },
+                                                                         {
+                                                                             "promptType":  "Performance Metrics",
+                                                                             "promptTitle":  "Gather System Performance Benchmarks",
+                                                                             "prompt":  "Collect performance benchmarks for [System] over the last [Time Period]. Include historical data to emphasize trends and identify any benchmarks that fall outside normal performance ranges."
+                                                                         },
+                                                                         {
+                                                                             "promptType":  "Email Correspondence",
+                                                                             "promptTitle":  "Retrieve Feature-Related Emails",
+                                                                             "prompt":  "Search for emails concerning the integration of the [Feature]. Filter by [Email Sender or Team] and [Email Topic or Keyword], and sort the results by date, emphasizing those that include action items or follow-up needs."
+                                                                         },
+                                                                         {
+                                                                             "promptType":  "Load Data Analysis",
+                                                                             "promptTitle":  "Examine System Load Data",
+                                                                             "prompt":  "Examine the load data for [Version], concentrating on important performance indicators like CPU usage, memory utilization, and network latency during critical operational events."
+                                                                         }
+                                                                     ]
+                                       },
+                       "cross-functional":  {
+                                                "project-planning":  [
+                                                                         {
+                                                                             "promptType":  "Challenge Identification",
+                                                                             "promptTitle":  "Anticipate Project Hurdles",
+                                                                             "prompt":  "What are the primary [number] obstacles we could encounter during [specific project], and what proactive measures can we implement to tackle these challenges?"
+                                                                         },
+                                                                         {
+                                                                             "promptType":  "Roadmap Creation",
+                                                                             "promptTitle":  "Outline a Project Timeline",
+                                                                             "prompt":  "Create a comprehensive timeline for [specific initiative] that includes key milestones for [specific timeframe]."
+                                                                         },
+                                                                         {
+                                                                             "promptType":  "Market Analysis",
+                                                                             "promptTitle":  "Evaluate Market Dynamics",
+                                                                             "prompt":  "Examine the trends in [data set or market landscape] and suggest modifications to our approach for achieving [specific goal]."
+                                                                         },
+                                                                         {
+                                                                             "promptType":  "Success Measurement",
+                                                                             "promptTitle":  "Define Performance Indicators",
+                                                                             "prompt":  "Which key performance indicators should we monitor to assess the effectiveness of [specific campaign/project] in [target region]?"
+                                                                         },
+                                                                         {
+                                                                             "promptType":  "Resource Planning",
+                                                                             "promptTitle":  "Plan Resource Distribution",
+                                                                             "prompt":  "Propose a distribution plan for resources in relation to [specific project], incorporating [number] participants from [departments X, Y, and Z]."
+                                                                         }
+                                                                     ],
+                                                "team-brainstorming":  [
+                                                                           {
+                                                                               "promptType":  "Idea Generation",
+                                                                               "promptTitle":  "Innovative Solutions Generation",
+                                                                               "prompt":  "Propose [number] creative solutions to address [specific challenge], ensuring to consider [specific constraints, e.g., budgetary restrictions or sustainability objectives]."
+                                                                           },
+                                                                           {
+                                                                               "promptType":  "Trend Analysis",
+                                                                               "promptTitle":  "Trend Application Exploration",
+                                                                               "prompt":  "Examine [specific trend or technology] and suggest ways it can be harnessed to tackle [specific issue or industry focus]."
+                                                                           },
+                                                                           {
+                                                                               "promptType":  "Technology Identification",
+                                                                               "promptTitle":  "Emerging Tech Use Cases",
+                                                                               "prompt":  "Outline potential uses for [emerging technology] to enhance [specific process or performance indicator, e.g., team efficiency]."
+                                                                           },
+                                                                           {
+                                                                               "promptType":  "Framework Development",
+                                                                               "promptTitle":  "New Product Ideation Structure",
+                                                                               "prompt":  "Construct a plan to evaluate [number] fresh product concepts within a [time constraint or financial limit]."
+                                                                           },
+                                                                           {
+                                                                               "promptType":  "Risk Assessment",
+                                                                               "promptTitle":  "Risk and Mitigation Analysis",
+                                                                               "prompt":  "Assess the potential risks associated with deploying [specific innovation, e.g., AI-enhanced customer service] in the context of [specific industry]."
+                                                                           }
+                                                                       ],
+                                                "team-collaboration":  [
+                                                                           {
+                                                                               "promptType":  "Collaboration Enhancement",
+                                                                               "promptTitle":  "Foster Teamwork Between Departments",
+                                                                               "prompt":  "What methods can [Team A] and [Team B] implement to enhance cooperation on [specific type of project, e.g., product launches]?"
+                                                                           },
+                                                                           {
+                                                                               "promptType":  "Communication Planning",
+                                                                               "promptTitle":  "Develop a Tailored Communication Plan",
+                                                                               "prompt":  "Create a communication plan suited for [remote/in-person/hybrid] settings to overcome [specific challenge, e.g., meeting fatigue or task management]."
+                                                                           },
+                                                                           {
+                                                                               "promptType":  "Communication Optimization",
+                                                                               "promptTitle":  "Identify Essential Communication Tools",
+                                                                               "prompt":  "What are the vital tools that can enhance communication for [number] individuals working in [specific time zones]?"
+                                                                           },
+                                                                           {
+                                                                               "promptType":  "Inclusivity Guidelines",
+                                                                               "promptTitle":  "Establish Inclusivity Practices",
+                                                                               "prompt":  "What steps should be taken to ensure inclusivity in [type of meeting, e.g., brainstorming sessions] with a [diverse/multicultural] team?"
+                                                                           },
+                                                                           {
+                                                                               "promptType":  "Accountability Strategies",
+                                                                               "promptTitle":  "Build Shared Responsibility Framework",
+                                                                               "prompt":  "What approaches can be used to foster shared responsibility in cross-functional projects that involve [departments X, Y, and Z]?"
+                                                                           }
+                                                                       ],
+                                                "learning-and-development":  [
+                                                                                 {
+                                                                                     "promptType":  "Skill Identification",
+                                                                                     "promptTitle":  "Identify Essential Competencies",
+                                                                                     "prompt":  "Which critical competencies should team members in [specific role or department] prioritize to achieve [specific organizational goal]?"
+                                                                                 },
+                                                                                 {
+                                                                                     "promptType":  "Learning Program Development",
+                                                                                     "promptTitle":  "Craft a Tailored Learning Experience",
+                                                                                     "prompt":  "Develop a customized learning experience designed to enable [specific team] to excel in [specific skill, e.g., data analysis or customer service]."
+                                                                                 },
+                                                                                 {
+                                                                                     "promptType":  "Professional Development Strategies",
+                                                                                     "promptTitle":  "Incentivizing Development Participation",
+                                                                                     "prompt":  "What are [number] effective strategies to promote engagement in professional development programs among [specific employee group]?"
+                                                                                 },
+                                                                                 {
+                                                                                     "promptType":  "Training Schedule Creation",
+                                                                                     "promptTitle":  "Develop a Quarterly Training Plan",
+                                                                                     "prompt":  "Draft a training plan for the upcoming quarter that accommodates [specific constraints, e.g., limited budget or diverse skill levels]."
+                                                                                 },
+                                                                                 {
+                                                                                     "promptType":  "Program Impact Evaluation",
+                                                                                     "promptTitle":  "Assess Training Effectiveness",
+                                                                                     "prompt":  "What methods can we use to evaluate the influence of [specific training program] on [specific performance metric, e.g., sales growth]?"
+                                                                                 }
+                                                                             ],
+                                                "content-creation":  [
+                                                                         {
+                                                                             "promptType":  "Guide Creation",
+                                                                             "promptTitle":  "Simplify Process Understanding",
+                                                                             "prompt":  "Develop a straightforward [overview/manual/directory] for [specific task, software, or methodology]. Aim it towards [new hires/current staff] and incorporate [examples, illustrations, or frequent obstacles] to boost clarity."
+                                                                         },
+                                                                         {
+                                                                             "promptType":  "Team Communication",
+                                                                             "promptTitle":  "Summarize Team Developments",
+                                                                             "prompt":  "Compose a [team memo/notification/synopsis] that encapsulates [project milestones, event results, or forthcoming modifications]. Maintain an [informative/cooperative] tone and emphasize [key points, future actions, or responsibilities]."
+                                                                         },
+                                                                         {
+                                                                             "promptType":  "Problem Resolution Content",
+                                                                             "promptTitle":  "Create Solutions Resource",
+                                                                             "prompt":  "Generate a [help document/fault-finding manual] focused on [frequently asked questions/team challenges]. Structure it by [theme or division] and provide [detailed steps, resource links, or support contacts]."
+                                                                         },
+                                                                         {
+                                                                             "promptType":  "Collaborative Alignment",
+                                                                             "promptTitle":  "Draft Collaboration Proposal",
+                                                                             "prompt":  "Craft a [project proposal/slideshow/message] to unify [teams/divisions] on [project targets, expectations, or timelines]. Clearly define [common goals, responsibilities, or performance indicators] and add a [schedule, budget outline, or collaboration tools]."
+                                                                         },
+                                                                         {
+                                                                             "promptType":  "Knowledge Sharing Initiative",
+                                                                             "promptTitle":  "Highlight Team Successes",
+                                                                             "prompt":  "Construct a [newsletter/article/shareable resource] detailing [team successes, effective strategies, or insights gained]. Ensure it is [engaging/accessible/valuable] for the entire workforce, including [graphics, key points, or practical recommendations]."
+                                                                         }
+                                                                     ]
+                                            }
+                   }
+}

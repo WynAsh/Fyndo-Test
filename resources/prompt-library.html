@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Library - Fyndo</title>
+    <link rel="stylesheet" href="../assets/css/fyndo-main.css">
+    <link rel="icon" type="image/png" href="../assets/images/logo/favicon.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="../assets/images/logo/fyndo-logo.png" alt="Fyndo" height="40">
+                    </a>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-menu">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle">Product</a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-content">
+                                    <a href="../product/enterprise-search.html">Enterprise Search</a>
+                                    <a href="../product/knowledge-base.html">Knowledge Base</a>
+                                    <a href="../product/ai-workplace-assistant.html">AI Workplace Assistant</a>
+                                    <a href="../product/integrations.html">Integrations</a>
+                                    <a href="../product/platform-features.html">Platform Features</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle">Solutions</a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-content">
+                                    <a href="../solutions/engineering.html">Engineering</a>
+                                    <a href="../solutions/sales-enablement.html">Sales Enablement</a>
+                                    <a href="../solutions/marketing-intelligence.html">Marketing Intelligence</a>
+                                    <a href="../solutions/customer-support.html">Customer Support</a>
+                                    <a href="../solutions/hr-talent.html">HR & Talent</a>
+                                    <a href="../solutions/executive-insights.html">Executive Insights</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle">Resources</a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-content">
+                                    <a href="../resources/about.html">About</a>
+                                    <a href="../resources/prompt-library.html">Prompt Library</a>
+                                    <a href="../resources/faq.html">FAQ</a>
+                                    <a href="../resources/help-center.html">Help Center</a>
+                                    <a href="../resources/case-studies.html">Case Studies</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="nav-buttons">
+                        <a href="../demo.html" class="btn btn-outline">Request Demo</a>
+                        <a href="../contact.html" class="btn btn-primary">Get Started</a>
+                    </div>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <div class="mobile-menu-overlay"></div>
+            <div class="mobile-menu-content">
+                <div class="mobile-dropdown">
+                    <div class="mobile-dropdown-header">Product</div>
+                    <div class="mobile-dropdown-content">
+                        <a href="../product/enterprise-search.html">Enterprise Search</a>
+                        <a href="../product/knowledge-base.html">Knowledge Base</a>
+                        <a href="../product/ai-workplace-assistant.html">AI Workplace Assistant</a>
+                        <a href="../product/integrations.html">Integrations</a>
+                        <a href="../product/platform-features.html">Platform Features</a>
+                    </div>
+                </div>
+                <div class="mobile-dropdown">
+                    <div class="mobile-dropdown-header">Solutions</div>
+                    <div class="mobile-dropdown-content">
+                        <a href="../solutions/engineering.html">Engineering</a>
+                        <a href="../solutions/sales-enablement.html">Sales Enablement</a>
+                        <a href="../solutions/marketing-intelligence.html">Marketing Intelligence</a>
+                        <a href="../solutions/customer-support.html">Customer Support</a>
+                        <a href="../solutions/hr-talent.html">HR & Talent</a>
+                        <a href="../solutions/executive-insights.html">Executive Insights</a>
+                    </div>
+                </div>
+                <div class="mobile-dropdown">
+                    <div class="mobile-dropdown-header">Resources</div>
+                    <div class="mobile-dropdown-content">
+                        <a href="../resources/about.html">About</a>
+                        <a href="../resources/prompt-library.html">Prompt Library</a>
+                        <a href="../resources/faq.html">FAQ</a>
+                        <a href="../resources/help-center.html">Help Center</a>
+                        <a href="../resources/case-studies.html">Case Studies</a>
+                    </div>
+                </div>
+                <div class="mobile-menu-buttons">
+                    <a href="../demo.html" class="btn btn-outline">Request Demo</a>
+                    <a href="../contact.html" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Prompt Library</h1>
+                    <p class="hero-subtitle">Ready-to-use AI prompts to supercharge your productivity across every business function</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search Section -->
+        <section class="section">
+            <div class="container">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search prompts by category, function, or keyword..." class="search-input">
+                    <button class="btn btn-primary">Search</button>
+                </div>
+                <div class="filter-tabs">
+                    <button class="filter-tab active" data-category="all">All Prompts</button>
+                    <button class="filter-tab" data-category="sales">Sales</button>
+                    <button class="filter-tab" data-category="marketing">Marketing</button>
+                    <button class="filter-tab" data-category="engineering">Engineering</button>
+                    <button class="filter-tab" data-category="hr">HR</button>
+                    <button class="filter-tab" data-category="support">Support</button>
+                    <button class="filter-tab" data-category="analytics">Analytics</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prompts Grid -->
+        <section class="section">
+            <div class="container">
+                <div class="prompts-grid">
+                    <!-- Sales Prompts -->
+                    <div class="prompt-card" data-category="sales">
+                        <div class="prompt-header">
+                            <h3>Lead Qualification Script</h3>
+                            <span class="prompt-category">Sales</span>
+                        </div>
+                        <p class="prompt-description">Generate targeted questions to qualify potential leads based on your ideal customer profile.</p>
+                        <div class="prompt-content">
+                            <strong>Prompt:</strong>
+                            <div class="prompt-text">
+                                "Create a lead qualification script for [INDUSTRY] prospects. Include 10 discovery questions that help identify: budget range ($X-Y), decision-making process, timeline, current pain points with [SOLUTION AREA], and technical requirements. Format as a conversational flow with follow-up questions."
+                            </div>
+                        </div>
+                        <div class="prompt-actions">
+                            <button class="btn btn-outline copy-prompt">Copy Prompt</button>
+                            <button class="btn btn-primary">Use in Workspace</button>
+                        </div>
+                    </div>
+
+                    <div class="prompt-card" data-category="sales">
+                        <div class="prompt-header">
+                            <h3>Objection Handling Responses</h3>
+                            <span class="prompt-category">Sales</span>
+                        </div>
+                        <p class="prompt-description">Craft compelling responses to common sales objections with data-backed arguments.</p>
+                        <div class="prompt-content">
+                            <strong>Prompt:</strong>
+                            <div class="prompt-text">
+                                "Generate professional responses to these common objections for [PRODUCT/SERVICE]: 'Too expensive', 'Not the right time', 'Need to think about it', 'Happy with current solution'. Include statistics, social proof, and risk reversal techniques. Tone: consultative and empathetic."
+                            </div>
+                        </div>
+                        <div class="prompt-actions">
+                            <button class="btn btn-outline copy-prompt">Copy Prompt</button>
+                            <button class="btn btn-primary">Use in Workspace</button>
+                        </div>
+                    </div>
+
+                    <!-- Marketing Prompts -->
+                    <div class="prompt-card" data-category="marketing">
+                        <div class="prompt-header">
+                            <h3>Content Calendar Generator</h3>
+                            <span class="prompt-category">Marketing</span>
+                        </div>
+                        <p class="prompt-description">Create a comprehensive content calendar with topics, formats, and distribution channels.</p>
+                        <div class="prompt-content">
+                            <strong>Prompt:</strong>
+                            <div class="prompt-text">
+                                "Create a 30-day content calendar for [BRAND] targeting [AUDIENCE]. Include: 15 blog topics, 20 social media posts, 5 email campaigns, and 3 video concepts. Focus on [MAIN THEME/PRODUCT]. Include content pillars: educational (40%), promotional (20%), entertaining (20%), user-generated (20%). Format as a table with dates, platforms, and CTAs."
+                            </div>
+                        </div>
+                        <div class="prompt-actions">
+                            <button class="btn btn-outline copy-prompt">Copy Prompt</button>
+                            <button class="btn btn-primary">Use in Workspace</button>
+                        </div>
+                    </div>
+
+                    <div class="prompt-card" data-category="marketing">
+                        <div class="prompt-header">
+                            <h3>Email Campaign Sequences</h3>
+                            <span class="prompt-category">Marketing</span>
+                        </div>
+                        <p class="prompt-description">Design automated email sequences for lead nurturing and customer onboarding.</p>
+                        <div class="prompt-content">
+                            <strong>Prompt:</strong>
+                            <div class="prompt-text">
+                                "Create a 7-email nurture sequence for [PRODUCT] leads who downloaded [LEAD MAGNET]. Include: welcome email, 3 educational emails, 1 social proof email, 1 objection-handling email, 1 final offer email. Each email should be 150-200 words with clear CTAs. Include subject lines and optimal send timing."
+                            </div>
+                        </div>
+                        <div class="prompt-actions">
+                            <button class="btn btn-outline copy-prompt">Copy Prompt</button>
+                            <button class="btn btn-primary">Use in Workspace</button>
+                        </div>
+                    </div>
+
+                    <!-- Engineering Prompts -->
+                    <div class="prompt-card" data-category="engineering">
+                        <div class="prompt-header">
+                            <h3>Code Review Checklist</h3>
+                            <span class="prompt-category">Engineering</span>
+                        </div>
+                        <p class="prompt-description">Generate comprehensive code review guidelines tailored to your tech stack.</p>
+                        <div class="prompt-content">
+                            <strong>Prompt:</strong>
+                            <div class="prompt-text">
+                                "Create a code review checklist for [PROGRAMMING LANGUAGE] projects using [FRAMEWORK]. Include sections for: code quality, security vulnerabilities, performance optimization, testing coverage, documentation, and team conventions. Provide specific examples and automated tools recommendations."
+                            </div>
+                        </div>
+                        <div class="prompt-actions">
+                            <button class="btn btn-outline copy-prompt">Copy Prompt</button>
+                            <button class="btn btn-primary">Use in Workspace</button>
+                        </div>
+                    </div>
+
+                    <div class="prompt-card" data-category="engineering">
+                        <div class="prompt-header">
+                            <h3>API Documentation Template</h3>
+                            <span class="prompt-category">Engineering</span>
+                        </div>
+                        <p class="prompt-description">Create clear, developer-friendly API documentation with examples and use cases.</p>
+                        <div class="prompt-content">
+                            <strong>Prompt:</strong>
+                            <div class="prompt-text">
+                                "Generate comprehensive API documentation for [API NAME]. Include: overview, authentication methods, all endpoints with HTTP methods, request/response examples, error codes, rate limiting, SDKs, and getting started guide. Use OpenAPI 3.0 format with practical code samples in Python, JavaScript, and cURL."
+                            </div>
+                        </div>
+                        <div class="prompt-actions">
+                            <button class="btn btn-outline copy-prompt">Copy Prompt</button>
+                            <button class="btn btn-primary">Use in Workspace</button>
+                        </div>
+                    </div>
+
+                    <!-- HR Prompts -->
+                    <div class="prompt-card" data-category="hr">
+                        <div class="prompt-header">
+                            <h3>Job Description Generator</h3>
+                            <span class="prompt-category">HR</span>
+                        </div>
+                        <p class="prompt-description">Create compelling job descriptions that attract top talent and set clear expectations.</p>
+                        <div class="prompt-content">
+                            <strong>Prompt:</strong>
+                            <div class="prompt-text">
+                                "Write a job description for [JOB TITLE] at [COMPANY TYPE]. Include: compelling role summary, 5-7 key responsibilities, required qualifications, preferred qualifications, compensation range, benefits, company culture highlights, and growth opportunities. Use inclusive language and focus on impact over tasks."
+                            </div>
+                        </div>
+                        <div class="prompt-actions">
+                            <button class="btn btn-outline copy-prompt">Copy Prompt</button>
+                            <button class="btn btn-primary">Use in Workspace</button>
+                        </div>
+                    </div>
+
+                    <div class="prompt-card" data-category="hr">
+                        <div class="prompt-header">
+                            <h3>Performance Review Framework</h3>
+                            <span class="prompt-category">HR</span>
+                        </div>
+                        <p class="prompt-description">Design structured performance evaluations that drive employee development.</p>
+                        <div class="prompt-content">
+                            <strong>Prompt:</strong>
+                            <div class="prompt-text">
+                                "Create a performance review template for [ROLE LEVEL] employees. Include: goal achievement assessment, core competencies evaluation, 360-degree feedback section, development planning, and career progression discussion. Provide rating scales, example questions, and manager guidance notes."
+                            </div>
+                        </div>
+                        <div class="prompt-actions">
+                            <button class="btn btn-outline copy-prompt">Copy Prompt</button>
+                            <button class="btn btn-primary">Use in Workspace</button>
+                        </div>
+                    </div>
+
+                    <!-- Support Prompts -->
+                    <div class="prompt-card" data-category="support">
+                        <div class="prompt-header">
+                            <h3>Customer Issue Resolution</h3>
+                            <span class="prompt-category">Support</span>
+                        </div>
+                        <p class="prompt-description">Generate empathetic and solution-focused responses to customer complaints.</p>
+                        <div class="prompt-content">
+                            <strong>Prompt:</strong>
+                            <div class="prompt-text">
+                                "Create a response template for customer complaint about [ISSUE TYPE]. Include: acknowledgment of frustration, apology, explanation of root cause, detailed resolution steps, prevention measures, compensation offer (if applicable), and follow-up plan. Tone: empathetic but professional."
+                            </div>
+                        </div>
+                        <div class="prompt-actions">
+                            <button class="btn btn-outline copy-prompt">Copy Prompt</button>
+                            <button class="btn btn-primary">Use in Workspace</button>
+                        </div>
+                    </div>
+
+                    <div class="prompt-card" data-category="support">
+                        <div class="prompt-header">
+                            <h3>Knowledge Base Articles</h3>
+                            <span class="prompt-category">Support</span>
+                        </div>
+                        <p class="prompt-description">Write clear, searchable help articles that reduce support tickets.</p>
+                        <div class="prompt-content">
+                            <strong>Prompt:</strong>
+                            <div class="prompt-text">
+                                "Write a knowledge base article for [FEATURE/PROCESS]. Include: clear title, problem statement, step-by-step solution with screenshots, troubleshooting section, related articles, and search keywords. Use simple language, bullet points, and numbered lists. Target beginner to intermediate users."
+                            </div>
+                        </div>
+                        <div class="prompt-actions">
+                            <button class="btn btn-outline copy-prompt">Copy Prompt</button>
+                            <button class="btn btn-primary">Use in Workspace</button>
+                        </div>
+                    </div>
+
+                    <!-- Analytics Prompts -->
+                    <div class="prompt-card" data-category="analytics">
+                        <div class="prompt-header">
+                            <h3>Data Analysis Report</h3>
+                            <span class="prompt-category">Analytics</span>
+                        </div>
+                        <p class="prompt-description">Transform raw data into actionable business insights and recommendations.</p>
+                        <div class="prompt-content">
+                            <strong>Prompt:</strong>
+                            <div class="prompt-text">
+                                "Analyze [DATASET/METRICS] and create an executive summary. Include: key findings, trend analysis, performance vs. benchmarks, correlation insights, anomaly identification, business impact assessment, and 3-5 actionable recommendations. Use data visualization suggestions and include confidence levels."
+                            </div>
+                        </div>
+                        <div class="prompt-actions">
+                            <button class="btn btn-outline copy-prompt">Copy Prompt</button>
+                            <button class="btn btn-primary">Use in Workspace</button>
+                        </div>
+                    </div>
+
+                    <div class="prompt-card" data-category="analytics">
+                        <div class="prompt-header">
+                            <h3>KPI Dashboard Design</h3>
+                            <span class="prompt-category">Analytics</span>
+                        </div>
+                        <p class="prompt-description">Design executive dashboards that track the metrics that matter most.</p>
+                        <div class="prompt-content">
+                            <strong>Prompt:</strong>
+                            <div class="prompt-text">
+                                "Design a KPI dashboard for [DEPARTMENT/FUNCTION]. Identify: 5 primary metrics, 10 secondary metrics, data sources, visualization types, update frequency, alert thresholds, and drill-down capabilities. Include metric definitions, calculation methods, and business context for each KPI."
+                            </div>
+                        </div>
+                        <div class="prompt-actions">
+                            <button class="btn btn-outline copy-prompt">Copy Prompt</button>
+                            <button class="btn btn-primary">Use in Workspace</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Load More -->
+                <div class="text-center">
+                    <button class="btn btn-outline" id="load-more">Load More Prompts</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section section-dark">
+            <div class="container">
+                <div class="cta-content text-center">
+                    <h2>Ready to Supercharge Your Workflows?</h2>
+                    <p>Join thousands of professionals using Fyndo's AI-powered prompts to boost productivity</p>
+                    <div class="cta-buttons">
+                        <a href="../demo.html" class="btn btn-primary btn-lg">Request Demo</a>
+                        <a href="../contact.html" class="btn btn-outline btn-lg">Get Started Free</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="../assets/images/logo/fyndo-logo.png" alt="Fyndo" height="32">
+                    <p>AI-powered workplace intelligence for modern teams</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <a href="../product/enterprise-search.html">Enterprise Search</a>
+                        <a href="../product/knowledge-base.html">Knowledge Base</a>
+                        <a href="../product/ai-workplace-assistant.html">AI Assistant</a>
+                        <a href="../product/integrations.html">Integrations</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Solutions</h4>
+                        <a href="../solutions/engineering.html">Engineering</a>
+                        <a href="../solutions/sales-enablement.html">Sales</a>
+                        <a href="../solutions/marketing-intelligence.html">Marketing</a>
+                        <a href="../solutions/customer-support.html">Support</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <a href="../resources/about.html">About</a>
+                        <a href="../resources/prompt-library.html">Prompt Library</a>
+                        <a href="../resources/faq.html">FAQ</a>
+                        <a href="../resources/help-center.html">Help Center</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="../contact.html">Contact</a>
+                        <a href="../privacy.html">Privacy</a>
+                        <a href="../terms.html">Terms</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Fyndo. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/fyndo-main.js"></script>
+    <script>
+        // Prompt library specific functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Filter functionality
+            const filterTabs = document.querySelectorAll('.filter-tab');
+            const promptCards = document.querySelectorAll('.prompt-card');
+            
+            filterTabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    const category = this.dataset.category;
+                    
+                    // Update active tab
+                    filterTabs.forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Filter cards
+                    promptCards.forEach(card => {
+                        if (category === 'all' || card.dataset.category === category) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Copy prompt functionality
+            const copyButtons = document.querySelectorAll('.copy-prompt');
+            copyButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const promptText = this.closest('.prompt-card').querySelector('.prompt-text').textContent;
+                    navigator.clipboard.writeText(promptText).then(() => {
+                        this.textContent = 'Copied!';
+                        setTimeout(() => {
+                            this.textContent = 'Copy Prompt';
+                        }, 2000);
+                    });
+                });
+            });
+            
+            // Search functionality
+            const searchInput = document.querySelector('.search-input');
+            searchInput.addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase();
+                
+                promptCards.forEach(card => {
+                    const title = card.querySelector('h3').textContent.toLowerCase();
+                    const description = card.querySelector('.prompt-description').textContent.toLowerCase();
+                    const category = card.querySelector('.prompt-category').textContent.toLowerCase();
+                    
+                    if (title.includes(searchTerm) || description.includes(searchTerm) || category.includes(searchTerm)) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

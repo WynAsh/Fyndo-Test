@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Fyndo</title>
+    <link rel="stylesheet" href="../assets/css/fyndo-main.css">
+    <link rel="icon" type="image/png" href="../assets/images/logo/favicon.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="../index.html">
+                        <img src="../assets/images/logo/fyndo-logo.png" alt="Fyndo" height="40">
+                    </a>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-menu">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle">Product</a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-content">
+                                    <a href="../product/enterprise-search.html">Enterprise Search</a>
+                                    <a href="../product/knowledge-base.html">Knowledge Base</a>
+                                    <a href="../product/ai-workplace-assistant.html">AI Workplace Assistant</a>
+                                    <a href="../product/integrations.html">Integrations</a>
+                                    <a href="../product/platform-features.html">Platform Features</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle">Solutions</a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-content">
+                                    <a href="../solutions/engineering.html">Engineering</a>
+                                    <a href="../solutions/sales-enablement.html">Sales Enablement</a>
+                                    <a href="../solutions/marketing-intelligence.html">Marketing Intelligence</a>
+                                    <a href="../solutions/customer-support.html">Customer Support</a>
+                                    <a href="../solutions/hr-talent.html">HR & Talent</a>
+                                    <a href="../solutions/executive-insights.html">Executive Insights</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle">Resources</a>
+                            <div class="dropdown-menu">
+                                <div class="dropdown-content">
+                                    <a href="../resources/about.html">About</a>
+                                    <a href="../resources/prompt-library.html">Prompt Library</a>
+                                    <a href="../resources/faq.html">FAQ</a>
+                                    <a href="../resources/help-center.html">Help Center</a>
+                                    <a href="../resources/case-studies.html">Case Studies</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="nav-buttons">
+                        <a href="../demo.html" class="btn btn-outline">Request Demo</a>
+                        <a href="../contact.html" class="btn btn-primary">Get Started</a>
+                    </div>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <div class="mobile-menu-overlay"></div>
+            <div class="mobile-menu-content">
+                <div class="mobile-dropdown">
+                    <div class="mobile-dropdown-header">Product</div>
+                    <div class="mobile-dropdown-content">
+                        <a href="../product/enterprise-search.html">Enterprise Search</a>
+                        <a href="../product/knowledge-base.html">Knowledge Base</a>
+                        <a href="../product/ai-workplace-assistant.html">AI Workplace Assistant</a>
+                        <a href="../product/integrations.html">Integrations</a>
+                        <a href="../product/platform-features.html">Platform Features</a>
+                    </div>
+                </div>
+                <div class="mobile-dropdown">
+                    <div class="mobile-dropdown-header">Solutions</div>
+                    <div class="mobile-dropdown-content">
+                        <a href="../solutions/engineering.html">Engineering</a>
+                        <a href="../solutions/sales-enablement.html">Sales Enablement</a>
+                        <a href="../solutions/marketing-intelligence.html">Marketing Intelligence</a>
+                        <a href="../solutions/customer-support.html">Customer Support</a>
+                        <a href="../solutions/hr-talent.html">HR & Talent</a>
+                        <a href="../solutions/executive-insights.html">Executive Insights</a>
+                    </div>
+                </div>
+                <div class="mobile-dropdown">
+                    <div class="mobile-dropdown-header">Resources</div>
+                    <div class="mobile-dropdown-content">
+                        <a href="../resources/about.html">About</a>
+                        <a href="../resources/prompt-library.html">Prompt Library</a>
+                        <a href="../resources/faq.html">FAQ</a>
+                        <a href="../resources/help-center.html">Help Center</a>
+                        <a href="../resources/case-studies.html">Case Studies</a>
+                    </div>
+                </div>
+                <div class="mobile-menu-buttons">
+                    <a href="../demo.html" class="btn btn-outline">Request Demo</a>
+                    <a href="../contact.html" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Frequently Asked Questions</h1>
+                    <p class="hero-subtitle">Find answers to common questions about Fyndo's AI-powered workplace intelligence platform</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search Section -->
+        <section class="section">
+            <div class="container">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search FAQs..." class="search-input" id="faq-search">
+                    <button class="btn btn-primary">Search</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Categories -->
+        <section class="section">
+            <div class="container">
+                <div class="faq-categories">
+                    <button class="faq-category active" data-category="all">All Questions</button>
+                    <button class="faq-category" data-category="getting-started">Getting Started</button>
+                    <button class="faq-category" data-category="features">Features</button>
+                    <button class="faq-category" data-category="security">Security</button>
+                    <button class="faq-category" data-category="integrations">Integrations</button>
+                    <button class="faq-category" data-category="support">Support</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Content -->
+        <section class="section">
+            <div class="container">
+                <div class="faq-content">
+                    <!-- Getting Started -->
+                    <div class="faq-item" data-category="getting-started">
+                        <div class="faq-question">
+                            <h3>What is Fyndo and how does it work?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Fyndo is an AI-powered workplace intelligence platform that helps teams find, organize, and leverage their institutional knowledge. It connects to your existing tools (Slack, Gmail, Drive, etc.) and uses advanced AI to provide instant answers, intelligent search, and automated insights across your entire digital workplace.</p>
+                            <p>The platform works by:</p>
+                            <ul>
+                                <li>Integrating with your existing tools and data sources</li>
+                                <li>Analyzing and indexing your content using AI</li>
+                                <li>Providing intelligent search and question-answering capabilities</li>
+                                <li>Offering automated insights and recommendations</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="getting-started">
+                        <div class="faq-question">
+                            <h3>How long does it take to set up Fyndo?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Most teams can get started with Fyndo in under 30 minutes. The setup process includes:</p>
+                            <ul>
+                                <li><strong>Initial setup:</strong> 5-10 minutes to create your account and configure basic settings</li>
+                                <li><strong>Integrations:</strong> 10-15 minutes to connect your primary tools (Slack, Google Workspace, etc.)</li>
+                                <li><strong>Data indexing:</strong> 1-24 hours for AI to process and index your content (happens in background)</li>
+                                <li><strong>Team onboarding:</strong> 5-10 minutes per team member</li>
+                            </ul>
+                            <p>You can start seeing value immediately, with full capabilities available once indexing is complete.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="getting-started">
+                        <div class="faq-question">
+                            <h3>Do I need technical expertise to use Fyndo?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>No technical expertise is required. Fyndo is designed to be user-friendly for all team members:</p>
+                            <ul>
+                                <li><strong>No-code setup:</strong> Point-and-click integration with popular tools</li>
+                                <li><strong>Intuitive interface:</strong> Simple search and chat-based interactions</li>
+                                <li><strong>Guided onboarding:</strong> Step-by-step tutorials and help</li>
+                                <li><strong>24/7 support:</strong> Our team is available to help with any questions</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Features -->
+                    <div class="faq-item" data-category="features">
+                        <div class="faq-question">
+                            <h3>What makes Fyndo different from other search tools?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Fyndo goes beyond traditional search with AI-powered intelligence:</p>
+                            <ul>
+                                <li><strong>Contextual understanding:</strong> Understands intent, not just keywords</li>
+                                <li><strong>Cross-platform search:</strong> Search all your tools from one place</li>
+                                <li><strong>Intelligent answers:</strong> Provides direct answers, not just links</li>
+                                <li><strong>Proactive insights:</strong> Surfaces relevant information you didn't know to look for</li>
+                                <li><strong>Continuous learning:</strong> Gets smarter with your team's usage patterns</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="features">
+                        <div class="faq-question">
+                            <h3>Can Fyndo understand context and provide personalized results?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, Fyndo's AI engine provides highly personalized and contextual results:</p>
+                            <ul>
+                                <li><strong>Role-based results:</strong> Prioritizes information relevant to your job function</li>
+                                <li><strong>Project context:</strong> Understands what projects you're working on</li>
+                                <li><strong>Team dynamics:</strong> Knows who you collaborate with most</li>
+                                <li><strong>Historical patterns:</strong> Learns from your search and interaction history</li>
+                                <li><strong>Real-time context:</strong> Considers your current activities and calendar</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="features">
+                        <div class="faq-question">
+                            <h3>What types of content can Fyndo search and analyze?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Fyndo can process and search virtually any type of business content:</p>
+                            <ul>
+                                <li><strong>Documents:</strong> PDFs, Word docs, spreadsheets, presentations</li>
+                                <li><strong>Communications:</strong> Emails, Slack messages, Teams chats</li>
+                                <li><strong>Code:</strong> Repositories, documentation, comments</li>
+                                <li><strong>Media:</strong> Images, videos, audio files (with transcription)</li>
+                                <li><strong>Structured data:</strong> CRM records, project management tools</li>
+                                <li><strong>Web content:</strong> Internal wikis, websites, knowledge bases</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                
+
+                    <div class="faq-item" data-category="pricing">
+                        <div class="faq-question">
+                            <h3>Is there a free trial available?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes! We offer a comprehensive 14-day free trial that includes:</p>
+                            <ul>
+                                <li>Full access to all Starter plan features</li>
+                                <li>Unlimited searches and AI interactions</li>
+                                <li>Integration with up to 5 tools</li>
+                                <li>Email and chat support</li>
+                                <li>No credit card required to start</li>
+                            </ul>
+                            <p>You can upgrade, downgrade, or cancel at any time during or after the trial period.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="pricing">
+                        <div class="faq-question">
+                            <h3>What's included in the Enterprise plan?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>The Enterprise plan includes everything in Professional plus:</p>
+                            <ul>
+                                <li><strong>Advanced security:</strong> SSO, SAML, advanced encryption</li>
+                                <li><strong>Compliance:</strong> SOC 2, GDPR, HIPAA compliance options</li>
+                                <li><strong>Custom integrations:</strong> API access and custom connectors</li>
+                                <li><strong>Advanced analytics:</strong> Usage insights and ROI reporting</li>
+                                <li><strong>Priority support:</strong> Dedicated success manager and 24/7 support</li>
+                                <li><strong>On-premise deployment:</strong> Private cloud or on-premise options</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Security -->
+                    <div class="faq-item" data-category="security">
+                        <div class="faq-question">
+                            <h3>How secure is my data with Fyndo?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Security is our top priority. Fyndo implements enterprise-grade security measures:</p>
+                            <ul>
+                                <li><strong>Encryption:</strong> AES-256 encryption in transit and at rest</li>
+                                <li><strong>Access control:</strong> Role-based permissions and SSO integration</li>
+                                <li><strong>Infrastructure:</strong> SOC 2 compliant hosting on AWS/Azure</li>
+                                <li><strong>Privacy:</strong> Your data is never used to train AI models</li>
+                                <li><strong>Monitoring:</strong> 24/7 security monitoring and incident response</li>
+                                <li><strong>Compliance:</strong> GDPR, CCPA, and industry-specific compliance</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="security">
+                        <div class="faq-question">
+                            <h3>Where is my data stored and processed?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Data storage and processing details:</p>
+                            <ul>
+                                <li><strong>Location:</strong> Data centers in US, EU, and Asia-Pacific regions</li>
+                                <li><strong>Hosting:</strong> Leading cloud providers (AWS, Microsoft Azure, Google Cloud)</li>
+                                <li><strong>Data residency:</strong> Choose where your data is stored and processed</li>
+                                <li><strong>Backup:</strong> Automated backups with geographic redundancy</li>
+                                <li><strong>Processing:</strong> AI processing happens in secure, isolated environments</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="security">
+                        <div class="faq-question">
+                            <h3>Can I control who has access to what information?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, Fyndo provides granular access controls:</p>
+                            <ul>
+                                <li><strong>Inherited permissions:</strong> Respects existing permissions from connected tools</li>
+                                <li><strong>Role-based access:</strong> Define custom roles and permissions</li>
+                                <li><strong>Content filtering:</strong> Control what content is indexed and searchable</li>
+                                <li><strong>User groups:</strong> Manage access by teams, departments, or projects</li>
+                                <li><strong>Audit logs:</strong> Track who accessed what and when</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Integrations -->
+                    <div class="faq-item" data-category="integrations">
+                        <div class="faq-question">
+                            <h3>What tools and platforms does Fyndo integrate with?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Fyndo integrates with 50+ popular business tools:</p>
+                            <ul>
+                                <li><strong>Communication:</strong> Slack, Microsoft Teams, Discord, Zoom</li>
+                                <li><strong>File storage:</strong> Google Drive, Dropbox, OneDrive, Box</li>
+                                <li><strong>Productivity:</strong> Gmail, Outlook, Notion, Confluence</li>
+                                <li><strong>Development:</strong> GitHub, GitLab, Jira, Linear</li>
+                                <li><strong>CRM:</strong> Salesforce, HubSpot, Pipedrive</li>
+                                <li><strong>Project management:</strong> Asana, Monday.com, Trello</li>
+                            </ul>
+                            <p>New integrations are added regularly based on customer requests.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="integrations">
+                        <div class="faq-question">
+                            <h3>How do integrations work? Do you store all my data?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Fyndo uses a smart approach to data handling:</p>
+                            <ul>
+                                <li><strong>Selective indexing:</strong> We only index metadata and key content, not full files</li>
+                                <li><strong>Real-time access:</strong> Most content stays in your original tools</li>
+                                <li><strong>Encrypted storage:</strong> Any stored data is fully encrypted</li>
+                                <li><strong>Automatic sync:</strong> Changes in your tools are reflected immediately</li>
+                                <li><strong>Data minimization:</strong> We only access what's needed for search and AI features</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="integrations">
+                        <div class="faq-question">
+                            <h3>Can I build custom integrations?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, Fyndo offers several ways to create custom integrations:</p>
+                            <ul>
+                                <li><strong>REST API:</strong> Full API access for custom applications</li>
+                                <li><strong>Webhooks:</strong> Real-time notifications and data sync</li>
+                                <li><strong>Custom connectors:</strong> We can build integrations for enterprise customers</li>
+                                <li><strong>Zapier/Make:</strong> No-code integrations with 1000+ tools</li>
+                                <li><strong>Developer support:</strong> Technical documentation and support</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Support -->
+                    <div class="faq-item" data-category="support">
+                        <div class="faq-question">
+                            <h3>What kind of support do you provide?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We provide comprehensive support to ensure your success:</p>
+                            <ul>
+                                <li><strong>24/7 chat support:</strong> Instant help through our in-app chat</li>
+                                <li><strong>Email support:</strong> Detailed responses within 4 hours</li>
+                                <li><strong>Video calls:</strong> Screen sharing for complex issues</li>
+                                <li><strong>Knowledge base:</strong> Extensive documentation and tutorials</li>
+                                <li><strong>Onboarding:</strong> Guided setup and training sessions</li>
+                                <li><strong>Success management:</strong> Dedicated support for Enterprise customers</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="support">
+                        <div class="faq-question">
+                            <h3>Do you provide training for my team?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, we offer comprehensive training options:</p>
+                            <ul>
+                                <li><strong>Self-serve resources:</strong> Video tutorials, documentation, and guides</li>
+                                <li><strong>Live webinars:</strong> Weekly training sessions on key features</li>
+                                <li><strong>Custom training:</strong> Tailored sessions for your team's needs</li>
+                                <li><strong>Train-the-trainer:</strong> Prepare your internal champions</li>
+                                <li><strong>Best practices:</strong> Optimization recommendations based on your usage</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-category="support">
+                        <div class="faq-question">
+                            <h3>How do I migrate from my current search solution?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We make migration smooth and painless:</p>
+                            <ul>
+                                <li><strong>Assessment:</strong> We analyze your current setup and needs</li>
+                                <li><strong>Migration plan:</strong> Custom timeline and approach</li>
+                                <li><strong>Data import:</strong> Automated tools to transfer existing configurations</li>
+                                <li><strong>Parallel running:</strong> Test Fyndo alongside your current solution</li>
+                                <li><strong>Training:</strong> Ensure your team is comfortable with the new system</li>
+                                <li><strong>Go-live support:</strong> Dedicated support during the transition</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Still have questions -->
+                <div class="faq-contact">
+                    <h3>Still have questions?</h3>
+                    <p>Can't find what you're looking for? Our support team is here to help.</p>
+                    <div class="faq-contact-buttons">
+                        <a href="../contact.html" class="btn btn-primary">Contact Support</a>
+                        <a href="../demo.html" class="btn btn-outline">Schedule a Demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="../assets/images/logo/fyndo-logo.png" alt="Fyndo" height="32">
+                    <p>AI-powered workplace intelligence for modern teams</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <a href="../product/enterprise-search.html">Enterprise Search</a>
+                        <a href="../product/knowledge-base.html">Knowledge Base</a>
+                        <a href="../product/ai-workplace-assistant.html">AI Assistant</a>
+                        <a href="../product/integrations.html">Integrations</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Solutions</h4>
+                        <a href="../solutions/engineering.html">Engineering</a>
+                        <a href="../solutions/sales-enablement.html">Sales</a>
+                        <a href="../solutions/marketing-intelligence.html">Marketing</a>
+                        <a href="../solutions/customer-support.html">Support</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <a href="../resources/about.html">About</a>
+                        <a href="../resources/prompt-library.html">Prompt Library</a>
+                        <a href="../resources/faq.html">FAQ</a>
+                        <a href="../resources/help-center.html">Help Center</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="../contact.html">Contact</a>
+                        <a href="../privacy.html">Privacy</a>
+                        <a href="../terms.html">Terms</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Fyndo. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/fyndo-main.js"></script>
+    <script>
+        // FAQ specific functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // FAQ toggle functionality
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                const answer = item.querySelector('.faq-answer');
+                const toggle = item.querySelector('.faq-toggle');
+                
+                question.addEventListener('click', function() {
+                    const isOpen = item.classList.contains('active');
+                    
+                    // Close all other items
+                    faqItems.forEach(otherItem => {
+                        otherItem.classList.remove('active');
+                        otherItem.querySelector('.faq-toggle').textContent = '+';
+                    });
+                    
+                    // Toggle current item
+                    if (!isOpen) {
+                        item.classList.add('active');
+                        toggle.textContent = '−';
+                    }
+                });
+            });
+            
+            // Category filtering
+            const categoryButtons = document.querySelectorAll('.faq-category');
+            
+            categoryButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const category = this.dataset.category;
+                    
+                    // Update active button
+                    categoryButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Filter FAQ items
+                    faqItems.forEach(item => {
+                        if (category === 'all' || item.dataset.category === category) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Search functionality
+            const searchInput = document.getElementById('faq-search');
+            
+            searchInput.addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase();
+                
+                faqItems.forEach(item => {
+                    const question = item.querySelector('h3').textContent.toLowerCase();
+                    const answer = item.querySelector('.faq-answer').textContent.toLowerCase();
+                    
+                    if (question.includes(searchTerm) || answer.includes(searchTerm)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

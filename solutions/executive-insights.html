@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Executive Insights | AI-Powered Business Intelligence | Fyndo</title>
+    <meta name="description" content="Empower C-suite decision-making with Fyndo's AI-powered executive insights. Real-time business intelligence, strategic analytics, and organizational visibility.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/images/logo/favicon.ico">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/fyndo-main.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <img src="../assets/images/logo/fyndo-logo.svg" alt="Fyndo" class="nav-logo">
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">Product</a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-content">
+                                <a href="../product/enterprise-search.html" class="dropdown-link">Enterprise Search</a>
+                                <a href="../product/knowledge-base.html" class="dropdown-link">Knowledge Base</a>
+                                <a href="../product/ai-workplace-assistant.html" class="dropdown-link">AI Workplace Assistant</a>
+                                <a href="../product/integrations.html" class="dropdown-link">Integrations</a>
+                                <a href="../product/platform-features.html" class="dropdown-link">Platform Features</a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">Solutions</a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-content">
+                                <a href="engineering.html" class="dropdown-link">Engineering</a>
+                                <a href="sales-enablement.html" class="dropdown-link">Sales Enablement</a>
+                                <a href="marketing-intelligence.html" class="dropdown-link">Marketing Intelligence</a>
+                                <a href="customer-support.html" class="dropdown-link">Customer Support</a>
+                                <a href="hr-talent.html" class="dropdown-link">HR & Talent Management</a>
+                                <a href="executive-insights.html" class="dropdown-link active">Executive Insights</a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">Resources</a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-content">
+                                <a href="../resources/prompt-library.html" class="dropdown-link">Prompt Library</a>
+                                <a href="../resources/about.html" class="dropdown-link">About Fyndo</a>
+                                <a href="../resources/faq.html" class="dropdown-link">FAQ</a>
+                                <a href="../resources/help-center.html" class="dropdown-link">Help Center</a>
+                                <a href="../resources/case-studies.html" class="dropdown-link">Customer Case Studies</a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    
+                </ul>
+                
+                <div class="nav-actions">
+                    <a href="../demo.html" class="btn btn-outline">Book Demo</a>
+                    <a href="../contact.html" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section gradient-bg">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Executive Intelligence for <span class="text-accent">Strategic Decision Making</span>
+                    </h1>
+                    <p class="hero-description">
+                        Empower C-suite leaders with AI-powered insights, real-time business intelligence, and comprehensive organizational visibility to drive strategic decisions and accelerate growth.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">73%</span>
+                            <span class="stat-label">Faster Decisions</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">85%</span>
+                            <span class="stat-label">Better Outcomes</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">90%</span>
+                            <span class="stat-label">Time Saved</span>
+                        </div>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="../demo.html" class="btn btn-primary btn-large">Executive Demo</a>
+                        <a href="#features" class="btn btn-outline btn-large">Explore Platform</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="executive-dashboard">
+                        <div class="dashboard-header">
+                            <h4>Executive Command Center</h4>
+                            <div class="time-range">
+                                <select>
+                                    <option>Last 30 Days</option>
+                                    <option>Last Quarter</option>
+                                    <option>Last Year</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="kpi-grid">
+                            <div class="kpi-card">
+                                <div class="kpi-label">Revenue Growth</div>
+                                <div class="kpi-value">+23.4%</div>
+                                <div class="kpi-trend positive">↗ +2.1% vs last month</div>
+                            </div>
+                            <div class="kpi-card">
+                                <div class="kpi-label">Market Share</div>
+                                <div class="kpi-value">34.7%</div>
+                                <div class="kpi-trend positive">↗ +1.3% vs last quarter</div>
+                            </div>
+                            <div class="kpi-card">
+                                <div class="kpi-label">Customer Satisfaction</div>
+                                <div class="kpi-value">94.2%</div>
+                                <div class="kpi-trend positive">↗ +0.8% vs last month</div>
+                            </div>
+                            <div class="kpi-card">
+                                <div class="kpi-label">Employee Engagement</div>
+                                <div class="kpi-value">87.5%</div>
+                                <div class="kpi-trend neutral">→ Stable</div>
+                            </div>
+                        </div>
+                        <div class="alerts-panel">
+                            <div class="alert critical">
+                                <span class="alert-icon">🔴</span>
+                                <span>Sales pipeline down 12% - immediate attention required</span>
+                            </div>
+                            <div class="alert warning">
+                                <span class="alert-icon">🟡</span>
+                                <span>Customer acquisition cost trending upward</span>
+                            </div>
+                            <div class="alert success">
+                                <span class="alert-icon">🟢</span>
+                                <span>Product development ahead of schedule</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Comprehensive Executive Intelligence Platform</h2>
+                <p class="section-description">
+                    Get the complete picture of your organization's performance with AI-powered insights and predictive analytics
+                </p>
+            </div>
+            
+            <div class="features-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-button active" data-tab="dashboard">Executive Dashboard</button>
+                    <button class="tab-button" data-tab="analytics">Predictive Analytics</button>
+                    <button class="tab-button" data-tab="intelligence">Business Intelligence</button>
+                    <button class="tab-button" data-tab="insights">Strategic Insights</button>
+                </div>
+                
+                <div class="tab-content">
+                    <!-- Executive Dashboard Tab -->
+                    <div class="tab-panel active" id="dashboard">
+                        <div class="feature-showcase">
+                            <div class="feature-demo">
+                                <div class="demo-interface">
+                                    <div class="interface-header">
+                                        <h4>Real-Time Executive Dashboard</h4>
+                                        <div class="dashboard-filters">
+                                            <button class="filter-btn active">Overview</button>
+                                            <button class="filter-btn">Financial</button>
+                                            <button class="filter-btn">Operations</button>
+                                            <button class="filter-btn">People</button>
+                                        </div>
+                                    </div>
+                                    <div class="executive-metrics">
+                                        <div class="metric-section">
+                                            <h5>Key Performance Indicators</h5>
+                                            <div class="metric-cards">
+                                                <div class="metric-card large">
+                                                    <div class="metric-header">
+                                                        <span class="metric-title">Revenue</span>
+                                                        <span class="metric-period">YTD</span>
+                                                    </div>
+                                                    <div class="metric-value">$47.2M</div>
+                                                    <div class="metric-change positive">+23.4% vs last year</div>
+                                                    <div class="metric-chart">
+                                                        <div class="chart-bar" style="height: 40%"></div>
+                                                        <div class="chart-bar" style="height: 65%"></div>
+                                                        <div class="chart-bar" style="height: 80%"></div>
+                                                        <div class="chart-bar" style="height: 90%"></div>
+                                                        <div class="chart-bar" style="height: 100%"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="metric-card">
+                                                    <span class="metric-title">Profit Margin</span>
+                                                    <div class="metric-value">18.7%</div>
+                                                    <div class="metric-change positive">+2.1%</div>
+                                                </div>
+                                                <div class="metric-card">
+                                                    <span class="metric-title">Customer LTV</span>
+                                                    <div class="metric-value">$24.5K</div>
+                                                    <div class="metric-change positive">+12.3%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="priority-alerts">
+                                            <h5>Priority Alerts</h5>
+                                            <div class="alert-item high">
+                                                <div class="alert-priority">HIGH</div>
+                                                <div class="alert-content">
+                                                    <span class="alert-title">Q4 Pipeline Risk</span>
+                                                    <span class="alert-description">Sales pipeline 15% below target. Consider acceleration tactics.</span>
+                                                </div>
+                                            </div>
+                                            <div class="alert-item medium">
+                                                <div class="alert-priority">MEDIUM</div>
+                                                <div class="alert-content">
+                                                    <span class="alert-title">Talent Retention</span>
+                                                    <span class="alert-description">Engineering team showing 8% higher attrition risk.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feature-benefits">
+                                <h3>Real-Time Organizational Visibility</h3>
+                                <ul class="benefit-list">
+                                    <li><strong>Unified Dashboard:</strong> Single pane of glass for all critical business metrics</li>
+                                    <li><strong>Real-Time Updates:</strong> Live data feeds from all organizational systems</li>
+                                    <li><strong>Smart Alerts:</strong> AI-powered notifications for critical business events</li>
+                                    <li><strong>Custom Views:</strong> Personalized dashboards for different executive roles</li>
+                                </ul>
+                                <div class="metrics-grid">
+                                    <div class="metric">
+                                        <div class="metric-number">73%</div>
+                                        <div class="metric-text">Faster decision making</div>
+                                    </div>
+                                    <div class="metric">
+                                        <div class="metric-number">90%</div>
+                                        <div class="metric-text">Reduction in meeting time</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Predictive Analytics Tab -->
+                    <div class="tab-panel" id="analytics">
+                        <div class="feature-showcase">
+                            <div class="feature-demo">
+                                <div class="demo-interface">
+                                    <div class="interface-header">
+                                        <h4>Predictive Business Analytics</h4>
+                                    </div>
+                                    <div class="analytics-view">
+                                        <div class="forecast-chart">
+                                            <h5>Revenue Forecast</h5>
+                                            <div class="chart-container">
+                                                <div class="forecast-line">
+                                                    <div class="historical-data">
+                                                        <div class="data-point" style="height: 60%"></div>
+                                                        <div class="data-point" style="height: 75%"></div>
+                                                        <div class="data-point" style="height: 85%"></div>
+                                                        <div class="data-point current" style="height: 90%"></div>
+                                                    </div>
+                                                    <div class="prediction-data">
+                                                        <div class="data-point predicted" style="height: 95%"></div>
+                                                        <div class="data-point predicted" style="height: 100%"></div>
+                                                        <div class="data-point predicted" style="height: 105%"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="chart-labels">
+                                                    <span>Q1</span>
+                                                    <span>Q2</span>
+                                                    <span>Q3</span>
+                                                    <span>Q4</span>
+                                                    <span>Q1 '25</span>
+                                                    <span>Q2 '25</span>
+                                                    <span>Q3 '25</span>
+                                                </div>
+                                            </div>
+                                            <div class="forecast-confidence">
+                                                <span class="confidence-label">Confidence:</span>
+                                                <span class="confidence-value">87%</span>
+                                            </div>
+                                        </div>
+                                        <div class="prediction-insights">
+                                            <h5>Key Predictions</h5>
+                                            <div class="insight-item">
+                                                <div class="insight-icon">📈</div>
+                                                <div class="insight-content">
+                                                    <span class="insight-title">Revenue Growth</span>
+                                                    <span class="insight-prediction">+28% in next quarter</span>
+                                                    <span class="insight-factors">Driven by new product launch and market expansion</span>
+                                                </div>
+                                            </div>
+                                            <div class="insight-item">
+                                                <div class="insight-icon">⚠️</div>
+                                                <div class="insight-content">
+                                                    <span class="insight-title">Market Risk</span>
+                                                    <span class="insight-prediction">15% downturn risk</span>
+                                                    <span class="insight-factors">Economic indicators suggest potential headwinds</span>
+                                                </div>
+                                            </div>
+                                            <div class="insight-item">
+                                                <div class="insight-icon">🎯</div>
+                                                <div class="insight-content">
+                                                    <span class="insight-title">Opportunity</span>
+                                                    <span class="insight-prediction">$2.3M potential gain</span>
+                                                    <span class="insight-factors">Untapped enterprise segment identified</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feature-benefits">
+                                <h3>AI-Powered Business Forecasting</h3>
+                                <ul class="benefit-list">
+                                    <li><strong>Revenue Prediction:</strong> Accurate forecasting with 85%+ confidence levels</li>
+                                    <li><strong>Risk Assessment:</strong> Early warning systems for business threats</li>
+                                    <li><strong>Scenario Planning:</strong> Model different business scenarios and outcomes</li>
+                                    <li><strong>Market Intelligence:</strong> Competitive and market trend analysis</li>
+                                </ul>
+                                <div class="metrics-grid">
+                                    <div class="metric">
+                                        <div class="metric-number">85%</div>
+                                        <div class="metric-text">Prediction accuracy</div>
+                                    </div>
+                                    <div class="metric">
+                                        <div class="metric-number">60%</div>
+                                        <div class="metric-text">Better strategic outcomes</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Business Intelligence Tab -->
+                    <div class="tab-panel" id="intelligence">
+                        <div class="feature-showcase">
+                            <div class="feature-demo">
+                                <div class="demo-interface">
+                                    <div class="interface-header">
+                                        <h4>Cross-Functional Business Intelligence</h4>
+                                    </div>
+                                    <div class="bi-dashboard">
+                                        <div class="department-overview">
+                                            <div class="department-card">
+                                                <h5>Sales Performance</h5>
+                                                <div class="performance-metric">
+                                                    <span class="metric-value">127%</span>
+                                                    <span class="metric-label">of quota</span>
+                                                    <span class="metric-trend positive">+15%</span>
+                                                </div>
+                                                <div class="department-details">
+                                                    <div class="detail-item">
+                                                        <span>Pipeline: $8.4M</span>
+                                                        <span class="status positive">Strong</span>
+                                                    </div>
+                                                    <div class="detail-item">
+                                                        <span>Win Rate: 34%</span>
+                                                        <span class="status positive">Above target</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="department-card">
+                                                <h5>Marketing ROI</h5>
+                                                <div class="performance-metric">
+                                                    <span class="metric-value">4.2x</span>
+                                                    <span class="metric-label">return</span>
+                                                    <span class="metric-trend positive">+0.8x</span>
+                                                </div>
+                                                <div class="department-details">
+                                                    <div class="detail-item">
+                                                        <span>CAC: $847</span>
+                                                        <span class="status neutral">Target</span>
+                                                    </div>
+                                                    <div class="detail-item">
+                                                        <span>LTV: $24.5K</span>
+                                                        <span class="status positive">Strong</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="department-card">
+                                                <h5>Product Development</h5>
+                                                <div class="performance-metric">
+                                                    <span class="metric-value">92%</span>
+                                                    <span class="metric-label">on schedule</span>
+                                                    <span class="metric-trend positive">+5%</span>
+                                                </div>
+                                                <div class="department-details">
+                                                    <div class="detail-item">
+                                                        <span>Features: 47/52</span>
+                                                        <span class="status positive">On track</span>
+                                                    </div>
+                                                    <div class="detail-item">
+                                                        <span>Quality: 98.2%</span>
+                                                        <span class="status positive">Excellent</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cross-functional-insights">
+                                            <h5>Cross-Functional Insights</h5>
+                                            <div class="insight">
+                                                <span class="insight-icon">🔗</span>
+                                                <span>Marketing campaigns driving 23% higher-value leads to sales</span>
+                                            </div>
+                                            <div class="insight">
+                                                <span class="insight-icon">💡</span>
+                                                <span>Product features correlate with 15% increase in customer retention</span>
+                                            </div>
+                                            <div class="insight">
+                                                <span class="insight-icon">⚡</span>
+                                                <span>Engineering velocity up 30% after new tooling implementation</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feature-benefits">
+                                <h3>Unified Business Intelligence</h3>
+                                <ul class="benefit-list">
+                                    <li><strong>Department Integration:</strong> Connect data across all business functions</li>
+                                    <li><strong>Performance Correlation:</strong> Identify relationships between different metrics</li>
+                                    <li><strong>Resource Allocation:</strong> Optimize budget and resource distribution</li>
+                                    <li><strong>Strategic Alignment:</strong> Ensure all departments work toward common goals</li>
+                                </ul>
+                                <div class="metrics-grid">
+                                    <div class="metric">
+                                        <div class="metric-number">45%</div>
+                                        <div class="metric-text">Better resource allocation</div>
+                                    </div>
+                                    <div class="metric">
+                                        <div class="metric-number">67%</div>
+                                        <div class="metric-text">Improved cross-team alignment</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Strategic Insights Tab -->
+                    <div class="tab-panel" id="insights">
+                        <div class="feature-showcase">
+                            <div class="feature-demo">
+                                <div class="demo-interface">
+                                    <div class="interface-header">
+                                        <h4>Strategic AI Assistant</h4>
+                                    </div>
+                                    <div class="ai-insights">
+                                        <div class="insight-conversation">
+                                            <div class="message ai">
+                                                <div class="message-avatar">🤖</div>
+                                                <div class="message-content">
+                                                    <p><strong>Strategic Recommendation:</strong> Based on current market trends and performance data, I recommend accelerating your European expansion by Q2 2025.</p>
+                                                    <div class="insight-data">
+                                                        <div class="data-point">
+                                                            <span class="label">Market Opportunity:</span>
+                                                            <span class="value">$12.4M potential TAM</span>
+                                                        </div>
+                                                        <div class="data-point">
+                                                            <span class="label">Investment Required:</span>
+                                                            <span class="value">$2.1M initial capital</span>
+                                                        </div>
+                                                        <div class="data-point">
+                                                            <span class="label">Expected ROI:</span>
+                                                            <span class="value">4.2x in 18 months</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="message user">
+                                                <div class="message-content">
+                                                    <p>What are the main risks to consider?</p>
+                                                </div>
+                                                <div class="message-avatar">👤</div>
+                                            </div>
+                                            <div class="message ai">
+                                                <div class="message-avatar">🤖</div>
+                                                <div class="message-content">
+                                                    <p><strong>Risk Analysis:</strong> Three primary risks identified:</p>
+                                                    <ul class="risk-list">
+                                                        <li><span class="risk-level high">HIGH:</span> Regulatory compliance - GDPR and local data laws</li>
+                                                        <li><span class="risk-level medium">MEDIUM:</span> Currency fluctuation impact on margins</li>
+                                                        <li><span class="risk-level low">LOW:</span> Local competition from established players</li>
+                                                    </ul>
+                                                    <p>Recommended mitigation strategies available in detailed report.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="strategic-actions">
+                                            <h5>Recommended Actions</h5>
+                                            <div class="action-item">
+                                                <div class="action-priority">1</div>
+                                                <div class="action-content">
+                                                    <span class="action-title">Accelerate Product Development</span>
+                                                    <span class="action-description">Market window closing in 6 months</span>
+                                                </div>
+                                                <div class="action-impact">High Impact</div>
+                                            </div>
+                                            <div class="action-item">
+                                                <div class="action-priority">2</div>
+                                                <div class="action-content">
+                                                    <span class="action-title">Expand Sales Team</span>
+                                                    <span class="action-description">Scale to support 40% growth target</span>
+                                                </div>
+                                                <div class="action-impact">Medium Impact</div>
+                                            </div>
+                                            <div class="action-item">
+                                                <div class="action-priority">3</div>
+                                                <div class="action-content">
+                                                    <span class="action-title">Strategic Partnership</span>
+                                                    <span class="action-description">Consider acquisition opportunities</span>
+                                                </div>
+                                                <div class="action-impact">High Impact</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feature-benefits">
+                                <h3>AI-Powered Strategic Intelligence</h3>
+                                <ul class="benefit-list">
+                                    <li><strong>Strategic Recommendations:</strong> AI-generated business strategy suggestions</li>
+                                    <li><strong>Risk Assessment:</strong> Comprehensive risk analysis for major decisions</li>
+                                    <li><strong>Opportunity Identification:</strong> Discover hidden growth opportunities</li>
+                                    <li><strong>Competitive Intelligence:</strong> Market positioning and competitive analysis</li>
+                                </ul>
+                                <div class="metrics-grid">
+                                    <div class="metric">
+                                        <div class="metric-number">78%</div>
+                                        <div class="metric-text">Strategic success rate</div>
+                                    </div>
+                                    <div class="metric">
+                                        <div class="metric-number">52%</div>
+                                        <div class="metric-text">Faster strategic planning</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Executive Use Cases Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Executive Solutions by Role</h2>
+                <p class="section-description">Tailored intelligence for every C-suite executive</p>
+            </div>
+            
+            <div class="executive-grid">
+                <div class="executive-card">
+                    <div class="executive-icon">👨‍💼</div>
+                    <h3>Chief Executive Officer</h3>
+                    <p>Comprehensive organizational oversight with strategic insights and performance monitoring.</p>
+                    <ul class="executive-features">
+                        <li>Company-wide performance dashboard</li>
+                        <li>Strategic goal tracking and alignment</li>
+                        <li>Board reporting automation</li>
+                        <li>Market and competitive intelligence</li>
+                        <li>Risk assessment and mitigation</li>
+                    </ul>
+                    <div class="executive-metrics">
+                        <div class="exec-metric">
+                            <span class="metric-value">85%</span>
+                            <span class="metric-label">Better strategic outcomes</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="executive-card">
+                    <div class="executive-icon">💰</div>
+                    <h3>Chief Financial Officer</h3>
+                    <p>Financial intelligence and forecasting with real-time budget monitoring and analysis.</p>
+                    <ul class="executive-features">
+                        <li>Real-time financial performance</li>
+                        <li>Budget vs. actual analysis</li>
+                        <li>Cash flow forecasting</li>
+                        <li>Investment ROI tracking</li>
+                        <li>Financial risk assessment</li>
+                    </ul>
+                    <div class="executive-metrics">
+                        <div class="exec-metric">
+                            <span class="metric-value">73%</span>
+                            <span class="metric-label">Faster financial decisions</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="executive-card">
+                    <div class="executive-icon">⚙️</div>
+                    <h3>Chief Operating Officer</h3>
+                    <p>Operational excellence insights with process optimization and efficiency monitoring.</p>
+                    <ul class="executive-features">
+                        <li>Operational efficiency metrics</li>
+                        <li>Process optimization insights</li>
+                        <li>Resource allocation analysis</li>
+                        <li>Supply chain intelligence</li>
+                        <li>Quality and compliance monitoring</li>
+                    </ul>
+                    <div class="executive-metrics">
+                        <div class="exec-metric">
+                            <span class="metric-value">67%</span>
+                            <span class="metric-label">Operational efficiency gain</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="executive-card">
+                    <div class="executive-icon">🚀</div>
+                    <h3>Chief Technology Officer</h3>
+                    <p>Technology strategy and innovation insights with development pipeline visibility.</p>
+                    <ul class="executive-features">
+                        <li>Technology roadmap tracking</li>
+                        <li>Development velocity metrics</li>
+                        <li>Innovation pipeline analysis</li>
+                        <li>Technical debt assessment</li>
+                        <li>Security and compliance status</li>
+                    </ul>
+                    <div class="executive-metrics">
+                        <div class="exec-metric">
+                            <span class="metric-value">45%</span>
+                            <span class="metric-label">Faster innovation cycles</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="executive-card">
+                    <div class="executive-icon">📊</div>
+                    <h3>Chief Marketing Officer</h3>
+                    <p>Marketing intelligence and customer insights with campaign performance and ROI analysis.</p>
+                    <ul class="executive-features">
+                        <li>Marketing ROI and attribution</li>
+                        <li>Customer acquisition cost</li>
+                        <li>Brand perception analysis</li>
+                        <li>Campaign performance insights</li>
+                        <li>Market opportunity mapping</li>
+                    </ul>
+                    <div class="executive-metrics">
+                        <div class="exec-metric">
+                            <span class="metric-value">92%</span>
+                            <span class="metric-label">Better marketing decisions</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="executive-card">
+                    <div class="executive-icon">👥</div>
+                    <h3>Chief People Officer</h3>
+                    <p>People analytics and organizational health insights with talent management intelligence.</p>
+                    <ul class="executive-features">
+                        <li>Employee engagement tracking</li>
+                        <li>Talent pipeline analysis</li>
+                        <li>Performance and retention insights</li>
+                        <li>Diversity and inclusion metrics</li>
+                        <li>Organizational culture assessment</li>
+                    </ul>
+                    <div class="executive-metrics">
+                        <div class="exec-metric">
+                            <span class="metric-value">78%</span>
+                            <span class="metric-label">Improved people decisions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Integration Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Enterprise System Integration</h2>
+                <p class="section-description">Connect with your existing business intelligence and data systems</p>
+            </div>
+            
+            <div class="integration-categories">
+                <div class="integration-category">
+                    <h3>Business Intelligence</h3>
+                    <div class="integration-logos">
+                        <div class="integration-logo">Tableau</div>
+                        <div class="integration-logo">Power BI</div>
+                        <div class="integration-logo">Looker</div>
+                        <div class="integration-logo">Qlik</div>
+                    </div>
+                </div>
+                
+                <div class="integration-category">
+                    <h3>ERP Systems</h3>
+                    <div class="integration-logos">
+                        <div class="integration-logo">SAP</div>
+                        <div class="integration-logo">Oracle</div>
+                        <div class="integration-logo">NetSuite</div>
+                        <div class="integration-logo">Workday</div>
+                    </div>
+                </div>
+                
+                <div class="integration-category">
+                    <h3>CRM Platforms</h3>
+                    <div class="integration-logos">
+                        <div class="integration-logo">Salesforce</div>
+                        <div class="integration-logo">HubSpot</div>
+                        <div class="integration-logo">Microsoft Dynamics</div>
+                        <div class="integration-logo">Pipedrive</div>
+                    </div>
+                </div>
+                
+                <div class="integration-category">
+                    <h3>Financial Systems</h3>
+                    <div class="integration-logos">
+                        <div class="integration-logo">QuickBooks</div>
+                        <div class="integration-logo">Xero</div>
+                        <div class="integration-logo">FreshBooks</div>
+                        <div class="integration-logo">Sage</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="section gradient-bg text-white">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Executive-Level Results</h2>
+                <p class="section-description">Measurable impact on strategic decision-making and business outcomes</p>
+            </div>
+            
+            <div class="results-grid">
+                <div class="result-card">
+                    <div class="result-metric">73%</div>
+                    <div class="result-label">Faster Strategic Decisions</div>
+                    <div class="result-description">Accelerate critical business decisions with real-time insights</div>
+                </div>
+                
+                <div class="result-card">
+                    <div class="result-metric">85%</div>
+                    <div class="result-label">Improved Business Outcomes</div>
+                    <div class="result-description">Better results from data-driven strategic planning</div>
+                </div>
+                
+                <div class="result-card">
+                    <div class="result-metric">90%</div>
+                    <div class="result-label">Reduction in Meeting Time</div>
+                    <div class="result-description">Eliminate status update meetings with real-time dashboards</div>
+                </div>
+                
+                <div class="result-card">
+                    <div class="result-metric">67%</div>
+                    <div class="result-label">Better Resource Allocation</div>
+                    <div class="result-description">Optimize budget and resource distribution across departments</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Transform Your Executive Decision Making</h2>
+                <p class="cta-description">
+                    Join forward-thinking executives using Fyndo to drive strategic decisions and accelerate business growth.
+                </p>
+                <div class="cta-actions">
+                    <a href="../demo.html" class="btn btn-primary btn-large">Executive Demo</a>
+                    <a href="../contact.html" class="btn btn-outline btn-large">Speak with Expert</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <img src="../assets/images/logo/fyndo-logo.svg" alt="Fyndo" class="footer-logo">
+                        <p class="footer-description">
+                            AI-powered enterprise search and workplace productivity platform
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Product</h4>
+                    <ul class="footer-links">
+                        <li><a href="../product/enterprise-search.html">Enterprise Search</a></li>
+                        <li><a href="../product/knowledge-base.html">Knowledge Base</a></li>
+                        <li><a href="../product/ai-workplace-assistant.html">AI Workplace Assistant</a></li>
+                        <li><a href="../product/integrations.html">Integrations</a></li>
+                        <li><a href="../product/platform-features.html">Platform Features</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Solutions</h4>
+                    <ul class="footer-links">
+                        <li><a href="engineering.html">Engineering</a></li>
+                        <li><a href="sales-enablement.html">Sales Enablement</a></li>
+                        <li><a href="marketing-intelligence.html">Marketing Intelligence</a></li>
+                        <li><a href="customer-support.html">Customer Support</a></li>
+                        <li><a href="hr-talent.html">HR & Talent Management</a></li>
+                        <li><a href="executive-insights.html">Executive Insights</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="../resources/prompt-library.html">Prompt Library</a></li>
+                        <li><a href="../resources/about.html">About Fyndo</a></li>
+                        <li><a href="../resources/faq.html">FAQ</a></li>
+                        <li><a href="../resources/help-center.html">Help Center</a></li>
+                        <li><a href="../resources/case-studies.html">Customer Case Studies</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="../demo.html">Book Demo</a></li>
+                        <li><a href="../contact.html">Contact</a></li>
+                        <li><a href="../privacy.html">Privacy Policy</a></li>
+                        <li><a href="../terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 Fyndo. All rights reserved.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="GitHub">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../assets/js/fyndo-main.js"></script>
+</body>
+</html>
